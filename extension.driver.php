@@ -14,7 +14,7 @@
 				'release-date' => '2010-02-25',
 				'author' => array(
 					'name' => 'Simone Economo',
-					'website' => 'http://groups.google.com/group/symphony-cms-it',
+					'website' => 'http://lineheight.net',
 					'email' => 'my.ekoes@gmail.com'
 				),
 				'description' => 'Official Italian translation for the Symphony backend',

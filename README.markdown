@@ -5,8 +5,8 @@ Official Italian translation for [Symphony](http://www.symphony-cms.com).
 - Version: 1.1.0
 - Date: 25th February 2010
 - Requirements: Symphony 2.0.3 or greater
-- Author: Simone Economo <my.ekoes@gmail.com>
-- Contributors: Simone Economo <my.ekoes@gmail.com>, Davide Crivelli <da.crivelli@gmail.com>, Antonio Piu <antonio.piu@gmail.com>, Mario Butera <buteram@gmail.com>
+- Author: Simone Economo (my.ekoes on Gmail)
+- Contributors: Simone Economo (my.ekoes on Gmail), Davide Crivelli (da.crivelli on Gmail), Antonio Piu (antonio.piu on Gmail), Mario Butera (buteram on Gmail)
 - GitHub Repository: <http://github.com/ekoes/lang_italian>
 
 ## Installation & Updating

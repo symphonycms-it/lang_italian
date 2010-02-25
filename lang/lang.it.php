@@ -5,7 +5,7 @@
 		'author' => array(
 			'name' => 'Simone Economo',
 			'email' => 'my.ekoes@gmail.com',
-			'website' => 'http://www.lineheight.net',
+			'website' => 'http://lineheight.net',
 		),
 		'release-date' => '2010-02-25',
 	);
