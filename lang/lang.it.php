@@ -7,7 +7,7 @@
 			'email' => 'my.ekoes@gmail.com',
 			'website' => 'http://lineheight.net',
 		),
-		'release-date' => '2010-02-25',
+		'release-date' => '2010-05-28',
 	);
 
 
@@ -17,7 +17,7 @@
 	$dictionary = array(
 
 		'A database error occurred while attempting to reorder.' => 
-		'Il riordinamento &egrave; andato fallito a causa di un errore nel database.',
+		'Il riordinamento &#232; andato fallito a causa di un errore nel database.',
 
 		'You are not authorised to access this page.' => 
 		'Non sei autorizzato ad accedere alla pagina.',
@@ -53,7 +53,7 @@
 		'Crea un nuovo servizio',
 
 		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		'Si &egrave; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
+		'Si &#232; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
@@ -200,7 +200,7 @@
 		'Parametro URL associato <i>Facoltativo</i>',
 
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
-		'Non includere le parentesi graffe. Se il parametro non ha alcun valore, non verr&agrave; restituito alcun risultato.' ,
+		'Non includere le parentesi graffe. Se il parametro non ha alcun valore, non verr&#224; restituito alcun risultato.' ,
 
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Reindirizza alla pagina 404 nel caso non venga restituito alcun risultato',
@@ -224,7 +224,7 @@
 		'Amministratore',
 
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		'Verr&agrave; creato un nuovo parametro <code id="output-param-name">$ds-%s</code> che potrà essere utilizzato nei template XSLT o in altre sorgenti dati.',
+		'Verr&#224; creato un nuovo parametro <code id="output-param-name">$ds-%s</code> che potrà essere utilizzato nei template XSLT o in altre sorgenti dati.',
 
 		'XML Output' => 
 		'Albero XML',
@@ -287,10 +287,10 @@
 		'Parametri URL',
 
 		'Failed to delete <code>%s</code>. Please check permissions.' => 
-		'Non &egrave; stato possibile cancellare <code>%s</code>. Controlla i permessi.',
+		'Non &#232; stato possibile cancellare <code>%s</code>. Controlla i permessi.',
 
 		'This is a required field' => 
-		'Questo campo &egrave; obbligatorio.',
+		'Questo campo &#232; obbligatorio.',
 
 		'XML is invalid' => 
 		'XML non valido',
@@ -311,10 +311,10 @@
 		'Dev\'essere definito un numero di pagina',
 
 		'A Data source with the name <code>%s</code> name already exists' => 
-		'Una sorgente dati chiamata <code>%s</code> &egrave; gi&agrave; stata definita.',
+		'Una sorgente dati chiamata <code>%s</code> &#232; gi&#224; stata definita.',
 
 		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
-		'Non &egrave; stato possibile creare la sorgente dati in <code>%s</code>. Controlla i permessi.',
+		'Non &#232; stato possibile creare la sorgente dati in <code>%s</code>. Controlla i permessi.',
 
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento modificato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
@@ -332,10 +332,10 @@
 		'Invia un\'email a un autore quando l\'evento viene scatenato',
 
 		'Allow Multiple' => 
-		'Consenti l\'invio di pi&ugrave; voci',
+		'Consenti l\'invio di pi&#249; voci',
 
 		'This event will not be processed if any of these rules return true.' => 
-		'L\'esito di questo evento &egrave; strettamente legato a quello delle azioni selezionate.',
+		'L\'esito di questo evento &#232; strettamente legato a quello delle azioni selezionate.',
 
 		'Description' => 
 		'Descrizione',
@@ -347,31 +347,31 @@
 		'Elimina questo evento',
 
 		'An Event with the name <code>%s</code> name already exists' => 
-		"Un evento chiamato <code>%s</code> &egrave; gi&agrave; stato definito.",
+		"Un evento chiamato <code>%s</code> &#232; gi&#224; stato definito.",
 
 		'Success and Failure XML Examples' => 
 		'Risposta XML all\'evento',
 
 		'When saved successfully, the following XML will be returned:' => 
-		'Se l\'evento d&agrave; esito positivo, verr&agrave; restituito il seguente messaggio:',
+		'Se l\'evento d&#224; esito positivo, verr&#224; restituito il seguente messaggio:',
 
 		'Entry [created | edited] successfully.' => 
 		'Voce [creata | modificata] con successo.',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		'Se l\'evento d&agrave; esito negativo, per esempio a causa di campi mancanti o non validi, verr&agrave; restituito il seguente messaggio:',
+		'Se l\'evento d&#224; esito negativo, per esempio a causa di campi mancanti o non validi, verr&#224; restituito il seguente messaggio:',
 
 		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
-		 '(<b>N.B. &Egrave; possibile che utilizzando l\'opzione "Consenti l\'invio di pi&ugrave; voci" si possano ottenere sia messaggi di conferma che messaggi d\'errore</b>)',
+		 '(<b>N.B. &#232; possibile che utilizzando l\'opzione "Consenti l\'invio di pi&#249; voci" si possano ottenere sia messaggi di conferma che messaggi d\'errore</b>)',
 
 		'Entry encountered errors when saving.' => 
 		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
 
 		'The following is an example of what is returned if any filters fail:' => 
-		'Se una o più azioni dovessero dare esito negativo, verr&eagrave; restituito un messaggio d\'errore simile a questo:',
+		'Se una o più azioni dovessero dare esito negativo, verr&#232; restituito un messaggio d\'errore simile a questo:',
 
 		'Recipient username was invalid' => 
-		'Il nome utente del destinatario non &egrave; corretto',
+		'Il nome utente del destinatario non &#232; corretto',
 
 		'Example Front-end Form Markup' => 
 		'Come costruire il form associato all\'evento',
@@ -383,7 +383,7 @@
 		'Invia',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		'Per modificare una voce gi&agrave; esistente:',
+		'Per modificare una voce gi&#224; esistente:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
 		'Per reindirizzare su una pagina differente dopo l\'invio:',
@@ -392,7 +392,7 @@
 		'Maggiori informazioni sull\'invio di e-mail',
 
 		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
-		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &egrave; compatibile con l\'opzione "Consenti l\'invio di pi&ugrave; voci".</b> Di seguito i campi riconosciuti:',
+		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &#232; compatibile con l\'opzione "Consenti l\'invio di pi&#249; voci".</b> Di seguito i campi riconosciuti:',
 
 		'Optional' => 
 		'Facoltativo',
@@ -407,7 +407,7 @@
 		'Messaggio',
 
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
-		'Non &egrave; stato possibile creare l\'evento in <code>%s</code>. Controlla i permessi.',
+		'Non &#232; stato possibile creare l\'evento in <code>%s</code>. Controlla i permessi.',
 
 		'Pages' => 
 		'Pagine',
@@ -452,16 +452,16 @@
 		'Modifica le impostazioni associate a questo template',
 
 		'Body is a required field.' => 
-		'Il corpo &egrave; un campo obbligatorio.',
+		'Il corpo &#232; un campo obbligatorio.',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
-		'Questo documento non &egrave;  la sintassi XML. L\'errore individuato &egrave; il seguente: <code>%s</code>',
+		'Questo documento non &#232;  la sintassi XML. L\'errore individuato &#232; il seguente: <code>%s</code>',
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
-		'Non &egrave; stato possibile creare il servizio. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
+		'Non &#232; stato possibile creare il servizio. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
 
 		'Page not found' => 
-		'La pagina non &egrave; stata trovata',
+		'La pagina non &#232; stata trovata',
 
 		'The page you requested to edit does not exist.' => 
 		'La pagina richiesta non esiste.',
@@ -494,37 +494,37 @@
 		'Elimina questa pagina',
 
 		'Title is a required field' => 
-		'Il titolo &egrave; un campo obbligatorio.',
+		'Il titolo &#232; un campo obbligatorio.',
 
 		'An index type page already exists.' => 
-		"Una pagina di tipo \'index\' &egrave; gi&agrave; stata definita.",
+		"Una pagina di tipo \'index\' &#232; gi&#224; stata definita.",
 
 		'A 404 type page already exists.' => 
-		'Una pagina di tipo \'404\' &egrave; gi&agrave; stata definita.',
+		'Una pagina di tipo \'404\' &#232; gi&#224; stata definita.',
 
 		'A 403 type page already exists.' => 
-		'Una pagina di tipo \'403\' &egrave; gi&agrave; stata definita.',
+		'Una pagina di tipo \'403\' &#232; gi&#224; stata definita.',
 
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
-		'Non &egrave; stato possibile scrivere la pagina sul disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
+		'Non &#232; stato possibile scrivere la pagina sul disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
 
 		'A page with that title already exists' => 
-		'Una pagina con lo stesso titolo &egrave; gi&agrave; stata definita.',
+		'Una pagina con lo stesso titolo &#232; gi&#224; stata definita.',
 
 		'A page with that handle already exists' => 
-		'Una pagina con lo stesso identificativo &egrave; gi&agrave; stata definita.',
+		'Una pagina con lo stesso identificativo &#232; gi&#224; stata definita.',
 
 		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&agrave;</a>',
+		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&#224;</a>',
 
 		'Page could not be deleted because it does not exist.' => 
-		'Non &egrave; stato possibile eliminare la pagina poich&eacute; non esiste.',
+		'Non &#232; stato possibile eliminare la pagina poich&#233; non esiste.',
 
 		'Page could not be deleted because it has children.' => 
-		'Non &egrave; stato possibile eliminare la pagina poich&eacute; contiene al suo interno delle sotto-pagine.',
+		'Non &#232; stato possibile eliminare la pagina poich&#233; contiene al suo interno delle sotto-pagine.',
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
-		'Non &eagrave; stato possibile eliminare una o pi&ugrave; pagine. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
+		'Non &#232; stato possibile eliminare una o pi&#249; pagine. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
 
 		'Create a section' => 
 		'Crea una nuova sezione',
@@ -539,7 +539,7 @@
 		'Elimina le voci',
 
 		'%s Hide this section from the Publish menu' => 
-		'%s Nascondi questa sezione dal men&ugrave; di navigazione',
+		'%s Nascondi questa sezione dal men&#249; di navigazione',
 
 		'Fields' => 
 		'Campi',
@@ -551,7 +551,7 @@
 		'Sezione sconosciuta',
 
 		'The Section you are looking for could not be found.' => 
-		'La sezione richiesta non &egrave; stata trovata.',
+		'La sezione richiesta non &#232; stata trovata.',
 
 		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Sezione modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
@@ -560,25 +560,25 @@
 		'Sezione creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
 
 		'Navigation Group <i>Choose only one. Created if does not exist</i>' => 
-		'Gruppo di navigazione <i>Puoi inserirne solo uno. Se non esiste, verr&agrave; creato</i>',
+		'Gruppo di navigazione <i>Puoi inserirne solo uno. Se non esiste, verr&#224; creato</i>',
 
 		'Delete this section' =>
 		'Elimina questa sezione',
 
 		'This is a required field.' => 
-		'Questo campo &egrave; obbligatorio.',
+		'Questo campo &#232; obbligatorio.',
 
 		'A Section with the name <code>%s</code> name already exists' => 
-		'Una sezione chiamata <code>%s</code> &egrave; gi&agrave; stata definita.',
+		'Una sezione chiamata <code>%s</code> &#232; gi&#224; stata definita.',
 
 		'Two custom fields have the same element name. All element names must be unique.' =>
 		'I nomi dei campi personalizzati devono essere univoci.',
 
 		'There is already a field of type <code>%s</code>. There can only be one per section.' => 
-		'Un campo del tipo <code>%s</code> &egrave; gi&agrave; stato definito. Pu&ograve; esisterne solo uno per sezione.',
+		'Un campo del tipo <code>%s</code> &#232; gi&#224; stato definito. Pu&#242; esisterne solo uno per sezione.',
 
 		'An unknown database occurred while attempting to create the section.' => 
-		'Si &egrave; verificato un errore nel database durante la creazione della sezione.',
+		'Si &#232; verificato un errore nel database durante la creazione della sezione.',
 
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Servizio aggiornato alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli strumenti</a>',
@@ -596,13 +596,13 @@
 		'Il nome è un campo obbligatorio.',
 
 		'A Utility with that name already exists. Please choose another.' => 
-		'Un servizio con lo stesso nome &egrave; gi&agrave; stato definito.',
+		'Un servizio con lo stesso nome &#232; gi&#224; stato definito.',
 
 		'Login' => 
 		'Accedi',
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		'Ti &egrave; stata inviata un\'e-mail contenente un link per effettuare l\'accesso. Ricorda che il link &egrave; &egrave; valido solo nelle prossime 2 ore.',
+		'Ti &#232; stata inviata un\'e-mail contenente un link per effettuare l\'accesso. Ricorda che il link &#232; &#232; valido solo nelle prossime 2 ore.',
 
 		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
 		'Inserisci il tuo indirizzo e-mail per ricevere ulteriori istruzioni su come effettuare l\'accesso.',
@@ -611,7 +611,7 @@
 		'Indirizzo e-mail',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'Non &egrave; stato possibile trovare il tuo account. Per favore controlla di avere utilizzato un indirizzo e-mail corretto.',
+		'Non &#232; stato possibile trovare il tuo account. Per favore controlla di avere utilizzato un indirizzo e-mail corretto.',
 
 		'New Password' => 
 		'Nuova password',
@@ -620,13 +620,13 @@
 		'Conferma la nuova password',
 
 		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
-		'La password fornita non &egrave; valida. Controlla di non aver lasciato il campo vuoto o di averla reinserita correttamente.',
+		'La password fornita non &#232; valida. Controlla di non aver lasciato il campo vuoto o di averla reinserita correttamente.',
 
 		'Password' => 
 		'Password',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
-		'La password inserita non &egrave; valida. <a href="%s">Hai perso la password?</a>',
+		'La password inserita non &#232; valida. <a href="%s">Hai perso la password?</a>',
 
 		'Symphony Concierge' => 
 		'Symphony CMS',
@@ -638,10 +638,10 @@
 		'Ciao %s',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
-		'&Egrave; stata richiesta una nuova password per il tuo account. Effettua l\'accesso usando il link seguente e modifica la password dalla pagina Autori dell\'amministrazione:',
+		'&#232; stata richiesta una nuova password per il tuo account. Effettua l\'accesso usando il link seguente e modifica la password dalla pagina Autori dell\'amministrazione:',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
-		'Ricorda che il link &egrave; valido solo nelle prossime 2 ore. Se non ne hai richiesta una nuova, allora non considerare questa e-mail.',
+		'Ricorda che il link &#232; valido solo nelle prossime 2 ore. Se non ne hai richiesta una nuova, allora non considerare questa e-mail.',
 
 		'Best Regards,' => 
 		'Cordiali saluti,',
@@ -650,7 +650,7 @@
 		'Il team di Symphony CMS',
 
 		'The Section you are looking, <code>%s</code> for could not be found.' => 
-		'Non &egrave; stato possibile trovare la sezione <code>%s</code>.',
+		'Non &#232; stato possibile trovare la sezione <code>%s</code>.',
 
 		'Create a new entry' => 
 		'Crea una nuova voce',
@@ -689,13 +689,13 @@
 		'Si sono verificati alcuni errori durante il salvataggio.',
 
 		'The Section you are looking for, <code>%s</code>, could not be found.' => 
-		'Non &egrave; stato possibile trovare la sezione <code>%s</code>.',
+		'Non &#232; stato possibile trovare la sezione <code>%s</code>.',
 
 		'Unknown Entry' => 
 		'Voce sconosciuta',
 
 		'The entry you are looking for could not be found.' => 
-		'Non &egrave; stato possibile trovare la voce richiesta.',
+		'Non &#232; stato possibile trovare la voce richiesta.',
 
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Voce modificata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
@@ -761,16 +761,16 @@
 		'Elimina questo profilo',
 
 		'Passwords did not match' => 
-		'La nuova password non &egrave; stata inserita correttamente ',
+		'La nuova password non &#232; stata inserita correttamente ',
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
 		'Si sono verificati degli errori durante il salvataggio. Controlla di aver compilato correttamente il modulo.',
 
 		'Wrong password. Enter old password to change it.' => 
-		'La password &egrave; errata. Inserisci quella vecchia per modificarla.',
+		'La password &#232; errata. Inserisci quella vecchia per modificarla.',
 
 		'Wrong password. Enter old one to change email address.' => 
-		'La password &egrave; errata. Inserisci quella vecchia per modificare l\'indirizzo email.',
+		'La password &#232; errata. Inserisci quella vecchia per modificare l\'indirizzo email.',
 
 		'Extensions' => 
 		'Estensioni',
@@ -782,7 +782,7 @@
 		'Versione',
 
 		'Yes' => 
-		'S&igrave;',
+		'S&#236;',
 
 		'No' => 
 		'No',
@@ -800,7 +800,7 @@
 		'Preferenze',
 
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		'Il file di configurazione di Symphony, <code>/manifest/config.php</code>, non ha i permessi in scrittura, pertanto non sar&agrave; possibile salvare eventuali cambiamenti alle impostazioni.',
+		'Il file di configurazione di Symphony, <code>/manifest/config.php</code>, non ha i permessi in scrittura, pertanto non sar&#224; possibile salvare eventuali cambiamenti alle impostazioni.',
 
 		'Preferences saved.' => 
 		false,
@@ -821,7 +821,7 @@
 		'Errore XSLT',
 
 		'This page could not be rendered due to the following XSLT processing errors.' => 
-		'Non &egrave; stato possibile mostrare la pagina a causa dei seguenti errori di elaborazione.',
+		'Non &#232; stato possibile mostrare la pagina a causa dei seguenti errori di elaborazione.',
 
 		'<a href="%s" title="Show debug view">Compile</a>' => 
 		'<a href="%s" title="Mostra il debug per questa pagina">Debug</a>',
@@ -848,40 +848,40 @@
 		'Non sei autorizzato ad accedere alla sezione richiesta.',
 
 		'Could not add directory "%s".' => 
-		'Non &egrave; stato possibile creare la cartella "%s".',
+		'Non &#232; stato possibile creare la cartella "%s".',
 
 		'Could not add file "%s".' => 
-		'Non &egrave; stato possibile creare il file "%s".',
+		'Non &#232; stato possibile creare il file "%s".',
 
 		'First name is required' => 
-		'Il nome &egrave; obbligatorio.',
+		'Il nome &#232; obbligatorio.',
 
 		'Last name is required' => 
-		'Il cognome &egrave; obbligatorio.',
+		'Il cognome &#232; obbligatorio.',
 
 		'E-mail address is required' => 
-		'L\'indirizzo e-mail &egrave; obbligatorio.',
+		'L\'indirizzo e-mail &#232; obbligatorio.',
 
 		'E-mail address entered is invalid' => 
-		'L\'indirizzo e-mail inserito non &egrave; valido.',
+		'L\'indirizzo e-mail inserito non &#232; valido.',
 
 		'Username is required' => 
-		'Il nome utente &egrave; obbligatorio.',
+		'Il nome utente &#232; obbligatorio.',
 
 		'Username is already taken' => 
-		"Il nome utente &egrave; gi&agrave; in uso.",
+		"Il nome utente &#232; gi&#224; in uso.",
 
 		'Password is required' => 
-		'La password &egrave; obbligatoria.',
+		'La password &#232; obbligatoria.',
 
 		'%s is not a valid object. Failed to append to XML.' => 
-		'Non &egrave; stato possibile aggiungere %s all\'albero XML poich&eacute; non &egrave; un oggetto valido.',
+		'Non &#232; stato possibile aggiungere %s all\'albero XML poich&#233; non &#232; un oggetto valido.',
 
 		'No records found.' => 
 		'L\'esito della ricerca non ha dato risultati.',
 
 		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Non &egrave; stato possibile trovare la sorgente dati <code>%s</code>. Se &egrave; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Non &#232; stato possibile trovare la sorgente dati <code>%s</code>. Se &#232; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'Edit' => 
 		'Modifica',
@@ -890,28 +890,28 @@
 		'Servizio',
 
 		'No suitable engine object found' => 
-		'Non &egrave; stato possibile creare il nuovo campo. Assicurati che esista un oggetto di tipo <code>engine</code>',
+		'Non &#232; stato possibile creare il nuovo campo. Assicurati che esista un oggetto di tipo <code>engine</code>',
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
-		'Il limite di voci specificato non &egrave; valido. Usare una stringa o un numero intero.',
+		'Il limite di voci specificato non &#232; valido. Usare una stringa o un numero intero.',
 
 		'Could not find Event <code>%s</code>. If the Event was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Non &egrave; stato possibile trovare l\'evento <code>%s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Non &#232; stato possibile trovare l\'evento <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'Could not %1$s %2$s, there was a problem loading the object. Check the driver class exists.' => 
-		'&Egrave; stato riscontrato un errore: %1$s %2$s. Assicurati che esista il driver associato.',
+		'&#232; stato riscontrato un errore: %1$s %2$s. Assicurati che esista il driver associato.',
 
 		'Could not find extension at location %s' => 
-		'Non &egrave; stato possibile trovare l\'estensione in %s.',
+		'Non &#232; stato possibile trovare l\'estensione in %s.',
 
 		'Invalid element name. Must be valid QName.' => 
 		'Il nome dell\'elemento dev\'essere di tipo <code>QName</code>.',
 
 		'A field with that element name already exists. Please choose another.' => 
-		'Un campo con questo nome &egrave; gi&agrave; stato definito.',
+		'Un campo con questo nome &#232; gi&#224; stato definito.',
 
 		'\'%s\' is a required field.' => 
-		'\'%s\' &egrave; un campo obbligatorio.',
+		'\'%s\' &#232; un campo obbligatorio.',
 
 		'Label' => 
 		'Etichetta',
@@ -941,13 +941,13 @@
 		'Il campo <code>%s</code> non permette di raggruppare l\'output proveniente dalle sorgenti dati',
 
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Non &egrave; stato possibile trovare il campo <code>%1$s</code> in <code>%2$s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Non &#232; stato possibile trovare il campo <code>%1$s</code> in <code>%2$s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'The page you requested does not exist.' => 
 		'La pagina richiesta non esiste.',
 
 		'Page Not Found' => 
-		'La pagina non &egrave; stata trovata',
+		'La pagina non &#232; stata trovata',
 
 		'Please <a href="%s">login</a> to view this page.' => 
 		'<a href="%s">Effettua l\'accesso</a> per visualizzare questa pagina.',
@@ -1031,10 +1031,10 @@
 		'Impossibile aprire il file %s',
 
 		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Non &egrave; stato possibile trovare il formattatore di testi <code>%s</code>. Se &egrave; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Non &#232; stato possibile trovare il formattatore di testi <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
 		'No suitable XSLT processor was found.' => 
-		'Non &egrave; stato trovato alcun elaboratore XSLT disponibile.',
+		'Non &#232; stato trovato alcun elaboratore XSLT disponibile.',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
 		'Impossibile trovare la cartella <code>/symphony</code> in questa cartella. Carica qui i contenuti del pacchetto di installazione di Symphony.',
@@ -1046,49 +1046,49 @@
 		'Symphony non ha i permessi in scrittura per la cartella <code>/manifest</code>. Modifica i permessi di questa cartella e dei suoi contenuti, ad es. con un il comando <code>chmod -R</code>.',
 
 		'Symphony does not have write permission to the root directory. Please modify permission settings on this directory. This is necessary only if you are not including a workspace, and can be reverted once installation is complete.' => 
-		'Symphony non ha i permessi in scrittura nella cartella principale (root). Modifica i permessi di questa cartella. Questa modifica &egrave; necessaria solo se non stai includendo uno spazio di lavoro (workspace) e pu&ograve; essere annullata una volta completata l\'installazione.',
+		'Symphony non ha i permessi in scrittura nella cartella principale (root). Modifica i permessi di questa cartella. Questa modifica &#232; necessaria solo se non stai includendo uno spazio di lavoro (workspace) e pu&#242; essere annullata una volta completata l\'installazione.',
 
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
-		'Symphony non ha i permessi in scrittura per il file temporaneo <code>htaccess</code>.  Modifica i permessi di questo file affinch&eacute; possa essere modificato e rinominato.',
+		'Symphony non ha i permessi in scrittura per il file temporaneo <code>htaccess</code>.  Modifica i permessi di questo file affinch&#233; possa essere modificato e rinominato.',
 
 		'Symphony does not have write permission to the <code>/symphony</code> directory. Please modify permission settings on this directory. This is necessary only during installation, and can be reverted once installation is complete.' => 
-		'Symphony non ha i permessi in scrittura per la cartella <code>/symphony</code>. Modifica i permessi di questa cartella. Questa modifica &egrave; necessaria solo durante l\'installazione e pu&ograve; essere annullata una volta che quest\'ultima sar&agrave; terminata.',
+		'Symphony non ha i permessi in scrittura per la cartella <code>/symphony</code>. Modifica i permessi di questa cartella. Questa modifica &#232; necessaria solo durante l\'installazione e pu&#242; essere annullata una volta che quest\'ultima sar&#224; terminata.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the Symphony install location. To avoid name clashes, you will need to delete or rename this file.' => 
-		'Sembra che esista gi&agrave; un file <code>.htaccess</code> nela cartella di installazione di Symphony. Per evitare conflitti devi cancellare o rinominare questo file.',
+		'Sembra che esista gi&#224; un file <code>.htaccess</code> nela cartella di installazione di Symphony. Per evitare conflitti devi cancellare o rinominare questo file.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the <code>/symphony</code> directory.' => 
-		'Sembra che esista gi&agrave; un file <code>.htaccess</code> nella cartella <code>/symphony</code>.',
+		'Sembra che esista gi&#224; un file <code>.htaccess</code> nella cartella <code>/symphony</code>.',
 
 		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
-		'Non &egrave; stato possibile connettersi al database specificato. Prova a modificare le impostazioni relative all\'host o alla porta.',
+		'Non &#232; stato possibile connettersi al database specificato. Prova a modificare le impostazioni relative all\'host o alla porta.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto affinch&eacute; l\'installazione possa proseguire.',
+		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto affinch&#233; l\'installazione possa proseguire.',
 
 		'The table prefix <code><!-- TABLE-PREFIX --></code> is already in use. Please choose a different prefix to use with Symphony.' => 
-		'Il prefisso <code><!-- TABLE-PREFIX --></code> &egrave; gi&agrave; in uso. Scegline un altro affinch&eacute; l\'installazione possa proseguire.',
+		'Il prefisso <code><!-- TABLE-PREFIX --></code> &#232; gi&#224; in uso. Scegline un altro affinch&#233; l\'installazione possa proseguire.',
 
 		'The password and confirmation did not match. Please retype your password.' => 
 		'Le due password inserite non corrispondono. Assicurati che la password digitata sia la stessa in entrambi i campi.',
 
 		'This is not a valid email address. You must provide an email address since you will need it if you forget your password.' => 
-		'Devi inserire un indirizzo e-mail valido, che ti servir&agrave; qualora dovessi dimenticare la tua password.',
+		'Devi inserire un indirizzo e-mail valido, che ti servir&#224; qualora dovessi dimenticare la tua password.',
 
 		'You must enter a Username. This will be your Symphony login information.' => 
-		'Devi inserire un nome utente valido, che ti servir&eagrave; per effetturare l\'accesso.',
+		'Devi inserire un nome utente valido, che ti servir&#232; per effetturare l\'accesso.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
-		'Devi inserire una password valida, che ti servir&eagrave; per effetturare l\'accesso.',
+		'Devi inserire una password valida, che ti servir&#232; per effetturare l\'accesso.',
 
 		'You must enter your name.' => 
 		'Devi inserire il tuo nome.',
 
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
-		'Sembra che esista gi&agrave; una cartella <code>/workspace</code> in questa cartella. Symphony la user&agrave; come spazio di lavoro (workspace).',
+		'Sembra che esista gi&#224; una cartella <code>/workspace</code> in questa cartella. Symphony la user&#224; come spazio di lavoro (workspace).',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, mentre &egrave; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&eacute; l\installazione possa proseguire.',
+		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; l\installazione possa proseguire.',
 
 		'Website Name' => 
 		'Nome del sito',
@@ -1097,7 +1097,7 @@
 		'Impostazioni di sistema',
 
 		'Symphony is ready to be installed at the following location.' => 
-		'Symphony &egrave; pronto per essere installato nella cartella specificata.',
+		'Symphony &#232; pronto per essere installato nella cartella specificata.',
 
 		'Root Path' => 
 		'Percorso della cartella principale (root)',
@@ -1151,10 +1151,10 @@
 		'Prefisso delle tabelle',
 
 		'Use compatibility mode' => 
-		'Abilita la modalit&agrave; compatibile',
+		'Abilita la modalit&#224; compatibile',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&agrave; compatibile abilitata, Symphony utilizzer&agrave; invece la codifica predefinita del tuo database.',
+		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&#224; compatibile abilitata, Symphony utilizzer&#224; invece la codifica predefinita del tuo database.',
 
 		'Permission Settings' => 
 		'Impostazioni dei permessi',
@@ -1226,55 +1226,55 @@
 		'Aggiorna Symphony',
 
 		'You are already using the most recent version of Symphony. There is no need to run the installer, and can be safely deleted.' => 
-		'Stai gi&agrave; usando la versione p&ugrave; recente di Symphony. Puoi rimuovere il file di aggiornamento.',
+		'Stai gi&#224; usando la versione p&#249; recente di Symphony. Puoi rimuovere il file di aggiornamento.',
 
 		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
-		'Questo aggiornamento &egrave; compatibile solamente con Symphony 2.',
+		'Questo aggiornamento &#232; compatibile solamente con Symphony 2.',
 
 		'Installation Failure' => 
 		'Installazione fallita',
 
 		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
-		'Si &egrave; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
+		'Si &#232; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
 
 		'XML returned is invalid.' => 
-		'Il codice XML restituito non &egrave; valido.',
+		'Il codice XML restituito non &#232; valido.',
 
 		'The section associated with the data source <code>%s</code> could not be found.' => 
-		'La sezione associata alla sorgente dati <code>%s</code> non &egrave; stata trovata.',
+		'La sezione associata alla sorgente dati <code>%s</code> non &#232; stata trovata.',
 
 		'Error creating field object with id %1$d, for filtering in data source "%2$s". Check this field exists.' => 
-		'Non &eagrave; stato possibile filtrare la sorgente dati "%2$s" tramite il campo %1$d. Assicurati che il campo esista.',
+		'Non &#232; stato possibile filtrare la sorgente dati "%2$s" tramite il campo %1$d. Assicurati che il campo esista.',
 
 		'Section is invalid' => 
-		'La sezione specificata non &egrave; valida',
+		'La sezione specificata non &#232; valida',
 
 		'Invalid Entry ID specified. Could not create Entry object.' => 
-		'Non &eagrave; stato possibile creare la voce poich&eacute; l\'ID specificato non &egrave; valido.',
+		'Non &#232; stato possibile creare la voce poich&#233; l\'ID specificato non &#232; valido.',
 
 		'Unknown errors where encountered when saving.' => 
 		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
 
 		'[Symphony] A new entry was created on %s' => 
-		'[Symphony] &Egrave; stata creata una nuova voce in %s',
+		'[Symphony] &#232; stata creata una nuova voce in %s',
 
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Ciao <!-- RECIPIENT NAME -->,',
 
 		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
-		'Ti &egrave; stata inviata questa notifica per segnalarti che nella sezione %1$s &egrave; stata creata una nuova voce. Puoi modificarla da qui: %2$s',
+		'Ti &#232; stata inviata questa notifica per segnalarti che nella sezione %1$s &#232; stata creata una nuova voce. Puoi modificarla da qui: %2$s',
 
 		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Non &egrave; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
+		'Non &#232; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
 
 		'Entry edited successfully.' => 
-		'La voce &egrave; stata modificata con successo.',
+		'La voce &#232; stata modificata con successo.',
 
 		'Entry created successfully.' => 
-		'La voce &egrave; stata creata con successo.',
+		'La voce &#232; stata creata con successo.',
 
 		'%s Allow selection of multiple authors' => 
-		'%s Consenti la selezione di pi&ugrave; autori',
+		'%s Consenti la selezione di pi&#249; autori',
 
 		'%s Select current user by default' => 
 		'%s Seleziona in automatico l\'utente connesso',
@@ -1292,7 +1292,7 @@
 		'Data/Ora',
 
 		'The date specified in \'%s\' is invalid.' => 
-		'La data specficata in \'%s\' non &egrave; valida.',
+		'La data specficata in \'%s\' non &#232; valida.',
 
 		'%s Pre-populate this field with today\'s date' => 
 		'%s Inserisci in automatico la data corrente',
@@ -1304,10 +1304,10 @@
 		'\'%s\' contiene dati non validi. Verifica che il formato dei dati sia corretto.',
 
 		'Select Box' => 
-		'Men&ugrave; a tendina',
+		'Men&#249; a tendina',
 
 		'At least one source must be specified, dynamic or static.' => 
-		'&Egrave; necessario specificare almeno una fonte.',
+		'&#232; necessario specificare almeno una fonte.',
 
 		'Static Options' => 
 		'Fonti statiche',
@@ -1316,7 +1316,7 @@
 		'Fonti dinamiche',
 
 		'%s Allow selection of multiple options' => 
-		'%s Consenti la selezione di pi&ugrave; elementi',
+		'%s Consenti la selezione di pi&#249; elementi',
 
 		'Tag List' => 
 		'Lista tag',
@@ -1331,7 +1331,7 @@
 		false,
 
 		'"%1$s" contains invalid XML. The following error was returned: <code>%2$s</code>' => 
-		'"%1$s" contiene XML non valido. L\'errore segnalato &egrave; il seguente: <code>%2$s</code>',
+		'"%1$s" contiene XML non valido. L\'errore segnalato &#232; il seguente: <code>%2$s</code>',
 
 		'Make textarea %s rows tall' => 
 		'Rendi il campo alto %s righe',
@@ -1343,7 +1343,7 @@
 		'La cartella di destinazione, <code>%s</code>, non esiste.',
 
 		'Destination folder, <code>%s</code>, is not writable. Please check permissions.' => 
-		'La cartella di destinazione, <code>%s</code>, non &egrave; modificabile. Verifica i permessi.',
+		'La cartella di destinazione, <code>%s</code>, non &#232; modificabile. Verifica i permessi.',
 
 		'Directory <code>%s</code> does not exists.' => 
 		'La cartella <code>%s</code> non esiste.',
@@ -1358,22 +1358,22 @@
 		'Il file selezionato in "%1$s" supera la dimensione massima consentita di %2$s specificata da Symphony.',
 
 		'File chosen in \'%s\' was only partially uploaded due to an error.' => 
-		'Il file selezionato in \'%s\' &egrave; stato caricato parzialmente a causa di un errore.',
+		'Il file selezionato in \'%s\' &#232; stato caricato parzialmente a causa di un errore.',
 
 		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Il caricamento di \'%s\' &eagrave; fallito. Non &egrave; stato possibile scrivere il file temporaneo sul disco.',
+		'Il caricamento di \'%s\' &#232; fallito. Non &#232; stato possibile scrivere il file temporaneo sul disco.',
 
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
-		'Il caricamento di \'%s\' &eagrave; stato interrotto dall\'estensione.',
+		'Il caricamento di \'%s\' &#232; stato interrotto dall\'estensione.',
 
 		'File chosen in \'%s\' does not match allowable file types for that field.' => 
-		'Il formato del file selezionato in \'%s\' non &egrave; fra quelli ammessi per questo campo.',
+		'Il formato del file selezionato in \'%s\' non &#232; fra quelli ammessi per questo campo.',
 
 		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
 		'Un file con il nome %1$s  gi presente in %2$s. Rinomina il file prima, oppure scegline un altro.',
 
 		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
-		'Si &egrave; verificato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
+		'Si &#232; verificato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
 
 		'Blueprints' => 
 		'Progetto',
@@ -1390,13 +1390,13 @@
 		'Aggiorna i risultati in cache ogni %s minuti',
 
 		'Make sure that you delete %s file after Symphony has installed successfully.' =>
-		'Assicurati di cancellare <code>%s</code> dopo che l\'installazione sar&agrave; terminata con successo.',
+		'Assicurati di cancellare <code>%s</code> dopo che l\'installazione sar&#224; terminata con successo.',
 
 		'Name' =>
 		'Nome',
 
 		'Navigation Group <i>Created if does not exist</i>' =>
-		'Gruppo di navigazione <i>Se non esiste, verr&agrave; creato</i>'
+		'Gruppo di navigazione <i>Se non esiste, verr&#224; creato</i>'
 
 	);
 
