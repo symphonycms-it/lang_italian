@@ -455,7 +455,7 @@
 		'Il corpo &#232; un campo obbligatorio.',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
-		'Questo documento non &#232;  la sintassi XML. L\'errore individuato &#232; il seguente: <code>%s</code>',
+		'Questo documento non &#232; ben formato. L\'errore individuato &#232; il seguente: <code>%s</code>',
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Non &#232; stato possibile creare il servizio. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
@@ -611,7 +611,7 @@
 		'Indirizzo e-mail',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'Non &#232; stato possibile trovare il tuo account. Per favore controlla di avere utilizzato un indirizzo e-mail corretto.',
+		'Non &#232; stato possibile trovare il tuo account. Controlla di avere utilizzato un indirizzo e-mail corretto.',
 
 		'New Password' => 
 		'Nuova password',
@@ -1310,10 +1310,10 @@
 		'&#232; necessario specificare almeno una fonte.',
 
 		'Static Options' => 
-		'Fonti statiche',
+		'Possibili valori (separati da virgola)',
 
 		'Dynamic Options' => 
-		'Fonti dinamiche',
+		'Attingi da',
 
 		'%s Allow selection of multiple options' => 
 		'%s Consenti la selezione di pi&#249; elementi',
@@ -1322,7 +1322,7 @@
 		'Lista tag',
 
 		'Suggestion List' => 
-		'Prendi spunto da',
+		'Attingi da',
 
 		'Existing Values' => 
 		'Valori pre-esistenti',
@@ -1380,6 +1380,56 @@
 
 		'false' => 
 		'falso',
+
+		// JavaScript Strings
+
+		'Add item' =>
+		'Aggiungi',
+
+		'Remove selected items' =>
+		'Rimuovi gli elementi selezionati',
+
+		'Are you sure you want to {$action} {$name}?' =>
+		'Sei sicuro di voler continuare? L\'operazione non potrà essere annullata.',
+
+		'Are you sure you want to {$action} {$count} items?' =>
+		'Sei sicuro di voler continuare? L\'operazione non potrà essere annullata.',
+
+		'Are you sure you want to {$action}?' =>
+		'Sei sicuro di voler continuare? L\'operazione non potrà essere annullata.',
+
+		'Reordering was unsuccessful.' =>
+		'Riordinamento fallito',
+
+		'Password' =>
+		false,
+
+		'Change Password' =>
+		'Cambia la password',
+
+		'Remove File' =>
+		'Rimuovi il file',
+
+		'at' =>
+		'il',
+
+		'just now' =>
+		'ora',
+
+		'a minute ago' =>
+		'un minuto fa',
+
+		'{$minutes} minutes ago' =>
+		'{$minutes} minuti fa',
+
+		'about 1 hour ago' =>
+		'circa un\'ora fa',
+
+		'about {$hours} hours ago' =>
+		'circa {$hours} ore fa',
+
+		'Remove item' =>
+		'Rimuovi',
 
 		// Future
 

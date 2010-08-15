@@ -2,9 +2,9 @@
 
 Official Italian translation for [Symphony](http://www.symphony-cms.com).  
 
-- Version: 1.1.1
-- Date: 28th May 2010
-- Requirements: Symphony 2.0.3 or greater
+- Version: 1.1.2
+- Date: 15th August 2010
+- Requirements: Symphony 2.0.7 or greater
 - Author: Simone Economo (my.ekoes on Gmail)
 - Contributors: Simone Economo (my.ekoes on Gmail), Davide Crivelli (da.crivelli on Gmail), Antonio Piu (antonio.piu on Gmail), Mario Butera (buteram on Gmail)
 - GitHub Repository: <http://github.com/ekoes/lang_italian>
@@ -18,6 +18,10 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 Older versions of this extension can be found at <http://github.com/eKoeS/symphony-cms-it>.
 
 ## Change log
+
+**Version 1.1.2, 15th August 2010**
+
+- Core JavaScript strings are now translated
 
 **Version 1.1.1, 28th May 2010**
 
