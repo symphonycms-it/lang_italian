@@ -541,6 +541,13 @@
 		'%s Hide this section from the Publish menu' => 
 		'%s Nascondi questa sezione dal men&#249; di navigazione',
 
+		// 2.1
+
+		'%s Hide this section from the back-end menu' => 
+		'%s Nascondi questa sezione dal men&#249; di navigazione',
+
+		// --
+
 		'Fields' => 
 		'Campi',
 
@@ -561,6 +568,16 @@
 
 		'Navigation Group <i>Choose only one. Created if does not exist</i>' => 
 		'Gruppo di navigazione <i>Puoi inserirne solo uno. Se non esiste, verr&#224; creato</i>',
+
+		// 2.1
+
+		'Choose only one. Created if does not exist' => 
+		'Puoi inserirne solo uno. Se non esiste, verr&#224; creato',
+
+		'Created if does not exist' => 
+		'Se non esiste, verr&#224; creato',
+
+		// --
 
 		'Delete this section' =>
 		'Elimina questa sezione',
