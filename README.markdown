@@ -2,8 +2,8 @@
 
 Official Italian translation for [Symphony](http://www.symphony-cms.com).  
 
-- Version: 1.1.2
-- Date: 15th August 2010
+- Version: 1.1.3
+- Date: 23th August 2010
 - Requirements: Symphony 2.0.7 or greater
 - Author: Simone Economo (my.ekoes on Gmail)
 - Contributors: Simone Economo (my.ekoes on Gmail), Davide Crivelli (da.crivelli on Gmail), Antonio Piu (antonio.piu on Gmail), Mario Butera (buteram on Gmail)
@@ -16,21 +16,3 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 ## Older versions
 
 Older versions of this extension can be found at <http://github.com/eKoeS/symphony-cms-it>.
-
-## Change log
-
-**Version 1.1.2, 15th August 2010**
-
-- Core JavaScript strings are now translated
-
-**Version 1.1.1, 28th May 2010**
-
-- All HTML entities have been replaced with their XML equivalent, in order to prevent errors when submitting data from the front-end.
-
-**Version 1.1, 25th February 2010**
-
-- Structural changes to match Symphony 2.0.7 requirements.
-
-**Version 1.0, 19th January 2010**
-
-- Initial release.
