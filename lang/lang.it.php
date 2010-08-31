@@ -7,7 +7,6 @@
 			'email' => 'my.ekoes@gmail.com',
 			'website' => 'http://lineheight.net',
 		),
-		'release-date' => '2010-05-28',
 	);
 
 
@@ -696,8 +695,11 @@
 		'Last' => 
 		'Ultima',
 
-		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler <a href="%s">creare un campo</a>, prima?',
+#		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+#		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
+
+		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' =>
+		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
 
 		'Create Entry' => 
 		'Crea la voce',
@@ -820,7 +822,7 @@
 		'Il file di configurazione di Symphony, <code>/manifest/config.php</code>, non ha i permessi in scrittura, pertanto non sar&#224; possibile salvare eventuali cambiamenti alle impostazioni.',
 
 		'Preferences saved.' => 
-		false,
+		'Preferenze salvate.',
 
 		'System Language' => 
 		'Lingua',
