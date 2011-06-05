@@ -7,7 +7,7 @@
 			'email' => 'my.ekoes@gmail.com',
 			'website' => 'http://lineheight.net'
 		),
-		'release-date' => '2011-03-01'
+		'release-date' => '2011-06-05'
 	);
 
 	/**
@@ -33,6 +33,12 @@
 		'%s Checked by default' => 
 		'%s Selezionato in automatico',
 
+		'%s Display field’s value in entries table' => 
+		'%s Mostra il valore del campo nella tabella delle voci',
+
+		'%s Display relationship in linked sections' => 
+		'%s Mostra la relazione nelle sezioni associate',
+
 		'%s HTML-encode text' => 
 		'%s codifica il testo in formato HTML',
 
@@ -45,11 +51,23 @@
 		'%s Make this a required field' => 
 		'%s Campo obbligatorio',
 
+		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
+		'%s Dividi i risultati in pagine di %s voci ciascuna, a partire dalla pagina %s',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Reindirizza alla pagina 404 nel caso non venga restituito alcun risultato',
 
+		'%s Requires authentication' => 
+		'%s Richiesta autenticazione',
+
 		'%s Select current user by default' => 
 		'%s Seleziona in automatico l\'utente connesso',
+
+		'%s has timed out' => 
+		'La connessione %s &#232; scaduta',
+
+		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
+		'%s non &#232; una codifica supportata. Usa "quoted-printable", "base64" o "false" se non vuoi alcuna codifica.',
 
 		'&larr; Previous' => 
 		'&larr; Precedente',
@@ -159,23 +177,23 @@
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		'Sembra che esista gi&#224; una cartella <code>/workspace</code> in questa cartella. Symphony la user&#224; come spazio di lavoro (workspace).',
 
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'Una o pi&#249; estensioni richiedono l\'aggiornamento. <a href="%s">Visualizza tutte le estensioni</a>',
+
 		'An index type page already exists.' => 
 		'Una pagina di tipo \'index\' &#232; gi&#224; stata definita.',
 
 		'An unknown database occurred while attempting to create the section.' => 
 		'Si &#232; verificato un errore nel database durante la creazione della sezione.',
 
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'&#200; stato individuato uno script di aggiornamento nella directory principale. <a href="%s">Aggiorna Symphony</a>',
+
 		'Apply' => 
 		'Applica',
 
-		'Are you sure you want to {$action} {$count} items?' => 
-		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
-
-		'Are you sure you want to {$action} {$name}?' => 
-		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
-
-		'Are you sure you want to {$action}?' => 
-		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
+		'As requested, here is your new Symphony Author Password for ' => 
+		'Come richiesto, ecco la nuova password per',
 
 		'At least one source must be specified, dynamic or static.' => 
 		'&#232; necessario specificare almeno una fonte.',
@@ -186,11 +204,23 @@
 		'Author ID' => 
 		'ID dell\'autore',
 
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+
+		'Author not found' => 
+		'Autore sconosciuto',
+
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+
 		'Authors' => 
 		'Autori',
 
 		'Authors can set up a differing language in their profiles.' => 
 		'Gli autori possono impostare una lingua diversa all\'interno del proprio profilo.',
+
+		'Available when using Dynamic Options' => 
+		'Utile quando si impostano dei valori dinamici',
 
 		'Best Regards,' => 
 		'Cordiali saluti,',
@@ -213,6 +243,15 @@
 		'Bugs' => 
 		'Insetti',
 
+		'Can not call AUTH again.' => 
+		'Non si pu&#242; chiamare HELO un\'altra volta',
+
+		'Can not call HELO on existing session' => 
+		'Non si pu&#242; chiamare HELO sulla sessione esistente',
+
+		'Cannot request a page callback without first specifying the page.' => 
+		'Non &#232; possibile richiedere una callback senza prima specificare la pagina.',
+
 		'Cats' => 
 		'Gatti',
 
@@ -234,6 +273,9 @@
 		'Cold' => 
 		'Freddi',
 
+		'Collapse all' => 
+		'Riduci tutti',
+
 		'Components' => 
 		'Componenti',
 
@@ -243,11 +285,29 @@
 		'Confirm Password' => 
 		'Conferma password',
 
+		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Non &#232; stato possibile trovare la sorgente dati <code>%s</code>. Se &#232; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+
+		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
+		'Non &#232; stato possibile trovare il gateway <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+
+		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Non &#232; stato possibile trovare l\'evento <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Non &#232; stato possibile trovare il campo <code>%1$s</code> in <code>%2$s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
+		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Non &#232; stato possibile trovare il formattatore di testi <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+
 		'Could not find extension at location %s' => 
 		'Non &#232; stato possibile trovare l\'estensione in %s.',
+
+		'Could not read from %s' => 
+		'Non &#232; stato possibile leggere da %s',
+
+		'Could not send request: %s' => 
+		'Non &#232; stato possibile inviare la seguente richiesta: %s',
 
 		'Create Author' => 
 		'Crea il profilo',
@@ -312,8 +372,14 @@
 		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
 		'I dati prelevati dal server di Symphony vengono decompressi con la libreria di compressione ZLib.',
 
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
+
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Il campo <code>%s</code> non permette di raggruppare l\'output proveniente dalle sorgenti dati',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
 
 		'Database' => 
 		'Database',
@@ -335,6 +401,9 @@
 
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Ciao <!-- RECIPIENT NAME -->,',
+
+		'Default Area' => 
+		'Area di default',
 
 		'Delete' => 
 		'Elimina',
@@ -378,11 +447,20 @@
 		'Directories' => 
 		'Cartelle',
 
+		'Directory <code>%s</code> does not exist.' => 
+		'La cartella <code>%s</code> non esiste.',
+
 		'Disable' => 
 		'Disattiva',
 
+		'Disabled' => 
+		'Disabilitata',
+
 		'Dogs' => 
 		'Cani',
+
+		'Dynamic Values' => 
+		'Valori dinamici',
 
 		'Dynamic XML' => 
 		'Fonte XML dinamica',
@@ -414,8 +492,20 @@
 		'Email Address' => 
 		'Indirizzo e-mail',
 
-		'Enable' => 
-		'Attiva',
+		'Email Gateway Error' => 
+		'Email Gateway: errore',
+
+		'Email subject cannot be empty.' => 
+		'L\'oggetto non pu&#242; essere vuoto.',
+
+		'Enable to install %s' => 
+		'Attiva per installare la %s',
+
+		'Enable to update to %s' => 
+		'Attiva per aggiornare alla %s',
+
+		'Enable/Install' => 
+		'Attiva/Installa',
 
 		'Enabled' => 
 		'Attiva',
@@ -432,6 +522,9 @@
 		'Entry [created | edited] successfully.' => 
 		'Voce [creata | modificata] con successo.',
 
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+
 		'Entry created successfully.' => 
 		'La voce &#232; stata creata con successo.',
 
@@ -444,6 +537,9 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Il limite di voci specificato non &#232; valido. Usare una stringa o un numero intero.',
 
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+
 		'Environment Settings' => 
 		'Impostazioni di sistema',
 
@@ -453,14 +549,26 @@
 		'Essentials' => 
 		'Generalit&#224;',
 
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
+
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
+
 		'Events' => 
 		'Eventi',
 
 		'Example Front-end Form Markup' => 
 		'Come costruire il form associato all\'evento',
 
+		'Example XML' => 
+		'Esempio XML',
+
 		'Existing Values' => 
 		'Valori pre-esistenti',
+
+		'Expand all' => 
+		'Espandi tutti',
 
 		'Extensions' => 
 		'Estensioni',
@@ -474,8 +582,14 @@
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
 		'Non &#232; stato possibile creare l\'evento in <code>%s</code>. Controlla i permessi.',
 
+		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
+		'Questa opzione &#232; particolarmente consigliata quando il numero di voci restituito in output &#232; molto elevato.',
+
 		'Fields' => 
 		'Campi',
+
+		'File Upload' => 
+		'Caricamento file',
 
 		'File chosen in "%1$s" exceeds the maximum allowed upload size of %2$s specified by your host.' => 
 		'Il file selezionato in "%1$s" supera la dimensione massima consentita di %2$s specificata dal tuo host.',
@@ -501,6 +615,9 @@
 		'Filter Navigation by' => 
 		'Filtra la navigazione per',
 
+		'Filter Options' => 
+		'Filtraggio',
+
 		'Filter Results' => 
 		'Filtri',
 
@@ -513,8 +630,20 @@
 		'First name is required' => 
 		'Il nome &#232; obbligatorio.',
 
+		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
+		'Per le connessioni sicure, &#232; garantito il supporto alle cifrature SSL e TLS. Per maggiori dettagli, controlla il manuale del tuo servizio di posta elettronica.',
+
+		'Forbidden' => 
+		'Accesso negato',
+
 		'Formatting' => 
 		'Formattazione',
+
+		'From Email Address' => 
+		'Email del mittente',
+
+		'From Name' => 
+		'Nome del mittente',
 
 		'General' => 
 		'Generale',
@@ -527,6 +656,9 @@
 
 		'Handle' => 
 		'Abbreviazione',
+
+		'Header fields can only contain strings' => 
+		'L\'header pu&#242; contenere solo stringhe',
 
 		'Hi %s,' => 
 		'Ciao %s',
@@ -543,11 +675,17 @@
 		'Installation Failure' => 
 		'Installazione fallita',
 
+		'Installed Version' => 
+		'Versione installata',
+
 		'Invalid Entry ID specified. Could not create Entry object.' => 
 		'Non &#232; stato possibile creare la voce poich&#233; l\'ID specificato non &#232; valido.',
 
 		'Invalid element name. Must be valid QName.' => 
 		'Il nome dell\'elemento dev\'essere di tipo <code>QName</code>.',
+
+		'Invalid timezone \'{$timezone}\'' => 
+		'Il fuso orario \'{$timezone}\' non &#232; valido',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Ricorda che il link &#232; valido solo nelle prossime 2 ore. Se non ne hai richiesta una nuova, allora non considerare questa e-mail.',
@@ -591,11 +729,17 @@
 		'Logout' => 
 		'Esci',
 
+		'Long Description' => 
+		'Descrizione',
+
 		'Lumpy' => 
 		'Bozzoloso',
 
 		'Main content' => 
 		'Porzione principale',
+
+		'Make sure that you delete <code>%s</code> file after Symphony has installed successfully.' => 
+		'Assicurati di cancellare <code>%s</code> dopo che l\'installazione sar&#224; terminata con successo.',
 
 		'Make textarea %s rows tall' => 
 		'Rendi il campo alto %s righe',
@@ -621,6 +765,18 @@
 		'Must be greater than zero' => 
 		'Dev\'essere un numero maggiore di zero',
 
+		'Must call EHLO (or HELO) before calling AUTH' => 
+		'&#200; necessario chiamare EHLO (o HELO) prima di AUTH',
+
+		'Must call EHLO (or HELO) before calling MAIL' => 
+		'&#200; necessario chiamare EHLO (o HELO) prima di MAIL',
+
+		'Must call MAIL before calling RCPT' => 
+		'&#200; necessario chiamare MAIL prima di RCPT',
+
+		'Must call RCPT before calling DATA' => 
+		'&#200; necessario chiamare RCPT prima di DATA',
+
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 o superiore',
 
@@ -632,6 +788,9 @@
 
 		'Name is a required field.' => 
 		'Il nome &#232; un campo obbligatorio.',
+
+		'Namespace Declarations' => 
+		'Namespace aggiuntivi',
 
 		'Navigation' => 
 		'Navigazione',
@@ -651,6 +810,15 @@
 		'No' => 
 		'No',
 
+		'No attachments or body text was set. Can not send empty email.' => 
+		'Il corpo dell\'email non pu&#242; essere vuoto.',
+
+		'No connection has been established to %s' => 
+		'Non &#232; stata stabilita alcuna connessione con %s',
+
+		'No encryption' => 
+		'Nessuna cifratura',
+
 		'No records found.' => 
 		'L\'esito della ricerca non ha dato risultati.',
 
@@ -660,14 +828,14 @@
 		'No suitable engine object found' => 
 		'Non &#232; stato possibile creare il nuovo campo. Assicurati che esista un oggetto di tipo <code>engine</code>',
 
-		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Non &#232; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
-
 		'None' => 
 		'Nessuno',
 
 		'None found.' => 
 		'Nessun risultato trovato.',
+
+		'Not Installed' => 
+		'Non installata',
 
 		'Old Password' => 
 		'Vecchia password',
@@ -677,6 +845,9 @@
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Non &#232; stato possibile eliminare una o pi&#249; pagine. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
+
+		'Only one call to MAIL may be made at a time.' => 
+		'Pu&#242; essere eseguita una sola chiamata MAIL alla volta',
 
 		'Optional' => 
 		'Facoltativo',
@@ -714,6 +885,12 @@
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Non &#232; stato possibile scrivere la pagina sul disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
 
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
+
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
+
 		'Pages' => 
 		'Pagine',
 
@@ -725,6 +902,9 @@
 
 		'Password is required' => 
 		'La password &#232; obbligatoria.',
+
+		'Password reset. Check your email' => 
+		'Password resettata. Controlla la tua casella di posta',
 
 		'Passwords did not match' => 
 		'La nuova password non &#232; stata inserita correttamente ',
@@ -753,14 +933,20 @@
 		'Please provide Symphony with access to a database.' => 
 		'Inserisci i dati di accesso al database.',
 
+		'Port' => 
+		'Porta',
+
+		'Predefined Values' => 
+		'Valori predefiniti',
+
 		'Preferences' => 
 		'Preferenze',
 
 		'Preferences saved.' => 
 		'Preferenze salvate.',
 
-		'Recipient username was invalid' => 
-		'Il nome utente del destinatario non &#232; corretto',
+		'Recipient email address cannot be empty.' => 
+		'L\'indirizzo email del destinatario non pu&#242; essere vuoto.',
 
 		'Region' => 
 		'Regione',
@@ -777,17 +963,38 @@
 		'Reordering was unsuccessful.' => 
 		'Riordinamento fallito',
 
+		'Reply-To Email Address can not contain carriage return or newlines.' => 
+		'Il campo Reply-To Email Address non pu&#242; contenere caratteri di accapo o carriage return.',
+
+		'Reply-To Name can not contain carriage return or newlines.' => 
+		'Il campo Reply-To Name non pu&#242; contenere caratteri di accapo o carriage return.',
+
+		'Required URL Parameter' => 
+		'Parametro URL associato',
+
 		'Root Path' => 
 		'Percorso della cartella principale (root)',
 
 		'Round' => 
 		'Rotondi',
 
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
+
+		'SSL encryption' => 
+		'Cifratura SSL',
+
 		'Save Changes' => 
 		'Salva le modifiche',
 
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
+
 		'Section is invalid' => 
 		'La sezione specificata non &#232; valida',
+
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
 
 		'Sections' => 
 		'Sezioni',
@@ -798,14 +1005,29 @@
 		'Send Email' => 
 		'Invia un\'email a un autore quando l\'evento viene scatenato',
 
+		'Send Notification Email' => 
+		'Invia email di notifica',
+
+		'Sender Email Address can not contain carriage return or newlines.' => 
+		'Il campo Sender Email Address non pu&#242; contenere caratteri di accapo o carriage return.',
+
+		'Sender email address cannot be empty.' => 
+		'L\'indirizzo email del mittente non pu&#242; essere vuoto.',
+
 		'Set %s' => 
 		'Imposta %s',
+
+		'Set navigation group' => 
+		'Imposta men&#249; di navigazione',
 
 		'Sidebar' => 
 		'Barra laterale',
 
 		'Small' => 
 		'Piccoli',
+
+		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
+		'Alcune connessioni SMPT richiedono l\'autenticazione. In tal caso, inserisci username e password nei campi sottostanti',
 
 		'Some errors were encountered while attempting to save.' => 
 		'Si sono verificati alcuni errori durante il salvataggio.',
@@ -861,6 +1083,9 @@
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
 		'Symphony non ha i permessi in scrittura per il file temporaneo <code>htaccess</code>.  Modifica i permessi di questo file affinch&#233; possa essere modificato e rinominato.',
 
+		'Symphony is also available in other languages' => 
+		'Symphony &#232; disponibile anche in altre lingue',
+
 		'Symphony is ready to be installed at the following location.' => 
 		'Symphony &#232; pronto per essere installato nella cartella specificata.',
 
@@ -878,12 +1103,6 @@
 
 		'Symphony needs the following requirements satisfied before installation can proceed.' => 
 		'Symphony richiede che i seguenti requisiti vengano soddisfatti prima che l\'installazione possa procedere.',
-
-		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&#224; compatibile abilitata, Symphony utilizzer&#224; invece la codifica predefinita del tuo database.',
-
-		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; linstallazione possa proseguire.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
 		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto affinch&#233; l\'installazione possa proseguire.',
@@ -909,6 +1128,9 @@
 		'System Language' => 
 		'Lingua',
 
+		'TLS encryption' => 
+		'Cifratura TLS',
+
 		'Table Prefix' => 
 		'Prefisso delle tabelle',
 
@@ -920,6 +1142,15 @@
 
 		'Text Input' => 
 		'Input semplice',
+
+		'The %s gateway does not support the use of %s' => 
+		'Il gateway %s non supporta l\'uso di %s',
+
+		'The Data Source \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
+		'La sorgente dati \'%s\' fornita dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che la sorgente dati venga eliminato da ogni sezione che ne fa uso.',
+
+		'The Event \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
+		'L\'evento \'%s\' fornito dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che l\'evento venga eliminato da ogni sezione che ne fa uso.',
 
 		'The Section you are looking for could not be found.' => 
 		'La sezione richiesta non &#232; stata trovata.',
@@ -936,11 +1167,29 @@
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
 		'Il file di configurazione di Symphony, <code>/manifest/config.php</code>, non ha i permessi in scrittura, pertanto non sar&#224; possibile salvare eventuali cambiamenti alle impostazioni.',
 
+		'The author profile you requested does not exist.' => 
+		'Il profilo che hai richiesto non esiste.',
+
 		'The date specified in \'%s\' is invalid.' => 
 		'La data specficata in \'%s\' non &#232; valida.',
 
+		'The destination directory, <code>%s</code>, does not exist.' => 
+		'La cartella di destinazione, <code>%s</code>, non esiste.',
+
+		'The email address "%s" is invalid.' => 
+		'L\'indirizzo email "%s" non &#232; valido.',
+
 		'The entry you are looking for could not be found.' => 
 		'Non &#232; stato possibile trovare la voce richiesta.',
+
+		'The field \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your sections prior to uninstalling or disabling.' => 
+		'Il campo \'%s\' fornito dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che il campo venga eliminato da ogni sezione che ne fa uso.',
+
+		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
+		'Il file non &#232; pi&#249; disponibile. Assicurati che esista e controlla i permessi in lettura.',
+
+		'The following is an example of what is returned if any options return an error:' => 
+		'Se una o pi&#249; azioni dovessero dare esito negativo, verr&#232; restituito un messaggio d\'errore simile a questo:',
 
 		'The page you requested does not exist.' => 
 		'La pagina richiesta non esiste.',
@@ -950,6 +1199,9 @@
 
 		'The section associated with the data source <code>%s</code> could not be found.' => 
 		'La sezione associata alla sorgente dati <code>%s</code> non &#232; stata trovata.',
+
+		'The selected language could not be found. Using default English dictionary instead.' => 
+		'Il linguaggio selezionato non &#232; stato trovato. Verr&#224; utilizzato il dizionario Inglese.',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
 		'La password inserita non &#232; valida. <a href="%s">Hai perso la password?</a>',
@@ -966,6 +1218,9 @@
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
 		'Non &#232; stato possibile trovare il tuo account. Controlla di avere utilizzato un indirizzo e-mail corretto.',
 
+		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
+		'Si &#232; verificato un errore durante il tentativo di connessione al database. Assicurati che tutti i parametri siano corretti. L\'errore individuato &#232; il seguente:',
+
 		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
 		'Si &#232; verificato un errore durante il tentativo di caricamento del file <code>%1$s</code> nella cartella di destinazione <code>%2$s</code>.',
 
@@ -974,6 +1229,12 @@
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
 		'Questo documento non &#232; ben formato. L\'errore individuato &#232; il seguente: <code>%s</code>',
+
+		'This event has been customised and cannot be viewed from Symphony.' => 
+		'Questo evento &#232; stato personalizzato e non pu&#242; essere visto da Symphony.',
+
+		'This gateway can not be found. Can not save as default.' => 
+		'Il gateway non &#232; stato trovato ',
 
 		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
 		'Ti &#232; stata inviata questa notifica per segnalarti che nella sezione %1$s &#232; stata creata una nuova voce. Puoi modificarla da qui: %2$s',
@@ -1023,8 +1284,20 @@
 		'URL Parameters' => 
 		'Parametri URL',
 
+		'Unable to connect via TLS' => 
+		'Non &#232; stato possibile connettersi via TLS',
+
+		'Unable to open socket. %s' => 
+		'Non &#232; stato possibile aprire il socket a causa del seguente errore: %s',
+
+		'Unable to open socket. Unknown error' => 
+		'Non &#232; stato possibile aprire il socket a causa di un errore sconosciuto',
+
 		'Unable to remove file - %s' => 
 		'Impossibile trovare il file - %s',
+
+		'Unable to set timeout.' => 
+		'Non &#232; stato possibile impostare il timeout.',
 
 		'Uninstall' => 
 		'Disinstalla',
@@ -1041,6 +1314,9 @@
 		'Unknown errors where encountered when saving.' => 
 		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
 
+		'Unsupported SSL type' => 
+		'Cifratura SSL non supportata',
+
 		'Untitled' => 
 		'Senza titolo',
 
@@ -1056,6 +1332,9 @@
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
 		'Il caricamento di \'%s\' &#232; stato interrotto dall\'estensione.',
 
+		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
+		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &#232; compatibile con l\'opzione "Consenti l\'invio di pi&#249; voci".</b> Di seguito i campi riconosciuti:',
+
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
 		'La sintassi <code>{$parametro}</code> ti permette di usare i Parametri URL di una pagina come filtro.',
 
@@ -1070,9 +1349,6 @@
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
 		'Puoi usare un\'espressione XPath per scegliere quali elementi estrarre dall\'albero XML.',
-
-		'Use compatibility mode' => 
-		'Abilita la modalit&#224; compatibile',
 
 		'User Information' => 
 		'Informazioni utente',
@@ -1095,11 +1371,17 @@
 		'Utilities' => 
 		'Utility',
 
-		'Utility' => 
-		false,
-
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Non &#232; stato possibile creare la utility. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
+
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+
+		'Validation Rule' => 
+		'Formato',
 
 		'Value' => 
 		'Valore',
@@ -1164,8 +1446,14 @@
 		'You are not authorised to access this page.' => 
 		'Non sei autorizzato ad accedere alla pagina.',
 
+		'You are not authorised to edit other authors.' => 
+		'Non sei autorizzato a modificare i profili di altri autori.',
+
 		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
 		'Questo aggiornamento &#232; compatibile solamente con Symphony 2.',
+
+		'You cannot remove yourself as you are the active Author.' => 
+		'Non &#232; possibile cancellare se stessi.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
 		'Devi inserire una password valida, che ti servir&#232; per effetturare l\'accesso.',
@@ -1175,6 +1463,9 @@
 
 		'You must enter your name.' => 
 		'Devi inserire il tuo nome.',
+
+		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
+		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
 
 		'ZLib Compression Library' => 
 		'Libreria di compressione ZLib',
@@ -1191,6 +1482,9 @@
 		'about {$hours} hours ago' => 
 		'circa {$hours} ore fa',
 
+		'appendHeaderField accepts strings only; arrays are not allowed.' => 
+		'appendHeaderField ammette solo stringhe; gli array non sono permessi.',
+
 		'ascending' => 
 		'crescente',
 
@@ -1203,8 +1497,17 @@
 		'just now' => 
 		'ora',
 
+		'list of comma-separated author usernames.' => 
+		'i nomi di ciascun utente separati da virgola',
+
+		'no leading zeros' => 
+		'nessun zero iniziale',
+
 		'random' => 
 		'casuale',
+
+		'released on' => 
+		'rilasciata il',
 
 		'{$minutes} minutes ago' => 
 		'{$minutes} minuti fa',
@@ -1222,6 +1525,15 @@
 
 		'%s is not a valid object. Failed to append to XML.' => 
 		'Non &#232; stato possibile aggiungere %s all\'albero XML poich&#233; non &#232; un oggetto valido.',
+
+		'Are you sure you want to {$action} {$count} items?' => 
+		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
+
+		'Are you sure you want to {$action} {$name}?' => 
+		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
+
+		'Are you sure you want to {$action}?' => 
+		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
 
 		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
 		'Profilo autore aggiunto alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
@@ -1268,6 +1580,9 @@
 		'Dynamic Options' => 
 		'Attingi da',
 
+		'Enable' => 
+		'Attiva',
+
 		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Voce creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
@@ -1288,6 +1603,9 @@
 
 		'It looks like your trying to create an entry. Perhaps you want custom fields first? <a href="%s">Click here to create some.</a>' => 
 		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler <a href="%s">creare un campo personalizato</a>, prima?',
+
+		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
 
 		'Local' => 
 		'Locale',
@@ -1310,6 +1628,9 @@
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
 		'Impossibile trovare la cartella <code>/symphony</code> in questa cartella. Carica qui i contenuti del pacchetto di installazione di Symphony.',
 
+		'No valid recipients found. Check send-email[recipient] field.' => 
+		'Non &#232; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
+
 		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Pagina creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le pagine</a>',
 
@@ -1321,6 +1642,9 @@
 
 		'Page updated at %s. <a href="%s">View all Pages</a>' => 
 		'Pagina modificata %s. <a href="%s">Visualizza tutte le pagine.</a>',
+
+		'Recipient username was invalid' => 
+		'Il nome utente del destinatario non &#232; corretto',
 
 		'Required URL Parameter <i>Optional</i>' => 
 		'Parametro URL associato <i>Facoltativo</i>',
@@ -1343,11 +1667,26 @@
 		'Static Options' => 
 		'Possibili valori (separati da virgola)',
 
+		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
+		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&#224; compatibile abilitata, Symphony utilizzer&#224; invece la codifica predefinita del tuo database.',
+
+		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
+		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; linstallazione possa proseguire.',
+
+		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
+		'Symphony user&#224; il gateway selezionato per inviare le email. I gateway possono essere usati sia negli eventi che nelle estensioni.',
+
 		'The destination directory, <code>%s</code>, does not exists.' => 
 		'La cartella di destinazione, <code>%s</code>, non esiste.',
 
+		'The following default settings will be used to send emails unless they are overwritten.' => 
+		'Verrano utilizzate le seguenti impostazioni:',
+
 		'The following is an example of what is returned if any filters fail:' => 
 		'Se una o pi&#249; azioni dovessero dare esito negativo, verr&#232; restituito un messaggio d\'errore simile a questo:',
+
+		'The page you requested does not exist' => 
+		'La pagina richiesta non esiste',
 
 		'The page you requested to edit does not exist.' => 
 		'La pagina richiesta non esiste.',
@@ -1366,6 +1705,9 @@
 
 		'This event will not be processed if any of these rules return true.' => 
 		'L\'esito di questo evento &#232; strettamente legato a quello delle azioni selezionate.',
+
+		'Use compatibility mode' => 
+		'Abilita la modalit&#224; compatibile',
 
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Utility creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
@@ -1402,14 +1744,14 @@
 
 		// Missing
 
+		'Are you sure you want to proceed?' => 
+		'Sei sicuro di voler procedere?',
+
 		'Password' => 
 		false,
 
-		'Expand all' => 
-		'Espandi tutti',
-
-		'Collapse all' => 
-		'Riduci tutti',
+		'All selected' => 
+		'Tutti i selezionati',
 
 		'%1$s &ndash; %2$s' => 
 		false,
@@ -1417,29 +1759,11 @@
 		'Symphony' => 
 		false,
 
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sorgente dati aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
-
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sorgente dati creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
-
 		'ID' => 
 		false,
 
-		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
-		'%s Dividi i risultati in pagine di %s voci ciascuna, a partire dalla pagina %s',
-
-		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
-		'Questa opzione &#232; particolarmente consigliata quando il numero di voci restituito in output &#232; molto elevato.',
-
-		'Required URL Parameter' => 
-		'Parametro URL associato',
-
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
 		'Verr&#224; creato un nuovo parametro <code id="output-param-name">$ds-%s</code> che potr&#224; essere utilizzato nei template XSLT o in altre sorgenti dati.',
-
-		'Namespace Declarations' => 
-		'Namespace aggiuntivi',
 
 		'URI' => 
 		false,
@@ -1447,35 +1771,17 @@
 		'Namespace' => 
 		false,
 
+		'Are you sure you want to delete this data source?' => 
+		'Sei sicuro di voler eliminare questa sorgente dati?',
+
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		false,
 
-		'released on' => 
-		'rilasciata il',
+		'Are you sure you want to delete this event?' => 
+		'Sei sicuro di voler eliminare questo evento?',
 
-		'Example XML' => 
-		'Esempio XML',
-
-		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Evento modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
-
-		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Evento creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
-
-		'Filter Options' => 
-		'Filtraggio',
-
-		'Send Notification Email' => 
-		'Invia email di notifica',
-
-		'The following is an example of what is returned if any options return an error:' => 
-		'Se una o pi&#249; azioni dovessero dare esito negativo, verr&#232; restituito un messaggio d\'errore simile a questo:',
-
-		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
-		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &#232; compatibile con l\'opzione "Consenti l\'invio di pi&#249; voci".</b> Di seguito i campi riconosciuti:',
-
-		'list of comma-separated author usernames.' => 
-		'i nomi di ciascun utente separati da virgola',
+		'Recipient not found' => 
+		'Destinatario mancante',
 
 		'Template' => 
 		false,
@@ -1483,257 +1789,80 @@
 		'<acronym title="Universal Resource Locator">URL</acronym>' => 
 		false,
 
-		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Pagina modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
+		'Are you sure you want to delete the selected pages?' => 
+		'Sei sicuro di voler eliminare le pagine selezionate?',
 
-		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Pagina creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
+		'Are you sure you want to delete this page?' => 
+		'Sei sicuro di voler eliminare questa pagina?',
 
-		'Set navigation group' => 
-		'Imposta men&#249; di navigazione',
+		'Page Template could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
+		'Non &#232; stato possibile creare il template della pagina su disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
 
-		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Sezione modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
+		'Are you sure you want to delete the selected sections?' => 
+		'Sei sicuro di voler rimuovere le sezioni selezionate?',
 
-		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Sezione creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
+		'Are you sure you want to delete all entries in the selected sections?' => 
+		'Sei sicuro di voler rimuovere tutte le voci all\'interno delle sezioni selezionate?',
 
-		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+		'Content' => 
+		'Contenuto',
 
-		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+		'Are you sure you want to delete this section?' => 
+		'Sei sicuro di voler eliminare questa sezione?',
 
-		'As requested, here is your new Symphony Author Password for ' => 
-		'Come richiesto, ecco la nuova password per',
+		'Are you sure you want to delete this Utility?' => 
+		'Sei sicuro di voler eliminare questa utility?',
 
-		'Password reset. Check your email' => 
-		'Password resettata. Controlla la tua casella di posta',
+		'Are you sure you want to delete the selected entries?' => 
+		'Sei sicuro di voler eliminare le voci selezionate?',
 
 		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
 		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
 
-		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+		'Are you sure you want to delete this entry?' => 
+		'Sei sicuro di voler eliminare questa voce?',
 
-		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+		'Are you sure you want to delete the selected authors?' => 
+		'Sei sicuro di voler eliminare i profili autore selezionati?',
 
-		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
+		'Are you sure you want to delete this author?' => 
+		'Sei sicuro di voler eliminare questo profilo autore?',
 
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+		'Are you sure you want to uninstall the selected extensions?' => 
+		'Sei sicuro di voler disinstallare le estensioni selezionate?',
 
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+		'Default Email Settings' => 
+		'Impostazioni per l\'invio email',
 
-		'Author not found' => 
-		'Autore sconosciuto',
-
-		'The author profile you requested does not exist.' => 
-		'Il profilo che hai richiesto non esiste.',
-
-		'You are not authorised to edit other authors.' => 
-		'Non sei autorizzato a modificare i profili di altri autori.',
-
-		'Default Area' => 
-		'Area di default',
-
-		'You cannot remove yourself as you are the active Author.' => 
-		'Non puoi cancellarti perch&#233 ',
-
-		'Installed Version' => 
-		'Versione installata',
-
-		'Not Installed' => 
-		'Non installata',
-
-		'Disabled' => 
-		'Disabilitata',
-
-		'Enable to install %s' => 
-		'Abilita per installare la %s',
-
-		'Enable to update to %s' => 
-		'Abilita per aggiornare alla %s',
-
-		'Email Gateway' => 
+		'Gateway' => 
 		false,
 
-		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
-		'Symphony user&#224; il gateway selezionato per inviare le email. I gateway possono essere usati sia negli eventi che nelle estensioni.',
+		'The page you requested, %s, does not exist.' => 
+		'La pagina richiesta, %s, non esiste.',
 
-		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
-		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
+		'Utility' => 
+		false,
 
-		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
-		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
-
-		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
-		'&#200; stato individuato uno script di aggiornamento nella directory principale. <a href="%s">Aggiorna Symphony</a>',
-
-		'An extension requires updating. <a href="%s">View Extensions</a>' => 
-		'Una o pi&#249; estensioni richiedono l\'aggiornamento. <a href="%s">Visualizza tutte le estensioni</a>',
-
-		'Cannot request a page callback without first specifying the page.' => 
-		'Non &#232; possibile richiedere una callback senza prima specificare la pagina.',
-
-		'Invalid timezone \'{$timezone}\'' => 
-		'Il fuso orario \'{$timezone}\' non &#232; valido',
-
-		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
-		'Si &#232; verificato un errore durante il tentativo di connessione al database. Assicurati che tutti i parametri siano corretti. L\'errore individuato &#232; il seguente:',
-
-		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Non &#232; stato possibile trovare la sorgente dati <code>%s</code>. Se &#232; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
-
-		'Email Gateway Error' => 
-		'Email Gateway: errore',
-
-		'Sender Email Address can not contain carriage return or newlines.' => 
-		'Il campo Sender Email Address non pu&#242; contenere caratteri di accapo o carriage return.',
-
-		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
-		'%s non &#232; una codifica supportata. Usa "quoted-printable", "base64" o "false" se non vuoi alcuna codifica.',
-
-		'Reply-To Email Address can not contain carriage return or newlines.' => 
-		'Il campo Reply-To Email Address non pu&#242; contenere caratteri di accapo o carriage return.',
-
-		'Reply-To Name can not contain carriage return or newlines.' => 
-		'Il campo Reply-To Name non pu&#242; contenere caratteri di accapo o carriage return.',
-
-		'appendHeaderField accepts strings only; arrays are not allowed.' => 
-		'appendHeaderField ammette solo stringhe; gli array non sono permessi.',
-
-		'Email subject cannot be empty.' => 
-		'L\'oggetto non pu&#242; essere vuoto.',
-
-		'Sender email address cannot be empty.' => 
-		'L\'indirizzo email del mittente non pu&#242; essere vuoto.',
-
-		'Recipient email address cannot be empty.' => 
-		'L\'indirizzo email del destinatario non pu&#242; essere vuoto.',
-
-		'The email address "%s" is invalid.' => 
-		'L\'indirizzo email "%s" non &#232; valido.',
-
-		'No attachments or body text was set. Can not send empty email.' => 
-		'Il corpo dell\'email non pu&#242; essere vuoto.',
-
-		'The %s gateway does not support the use of %s' => 
-		'Il gateway %s non supporta l\'uso di %s',
-
-		'This gateway can not be found. Can not save as default.' => 
-		'Il gateway non &#232; stato trovato ',
-
-		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		'Non &#232; stato possibile trovare il gateway <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
-
-		'This event has been customised and cannot be viewed from Symphony.' => 
-		'Questo evento &#232; stato personalizzato e non pu&#242; essere visto da Symphony.',
-
-		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Non &#232; stato possibile trovare l\'evento <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
-
-		'The field \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your sections prior to uninstalling or disabling.' => 
-		'Il campo \'%s\' fornito dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che il campo venga eliminato da ogni sezione che ne fa uso.',
-
-		'The Data Source \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
-		'La sorgente dati \'%s\' fornita dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che la sorgente dati venga eliminato da ogni sezione che ne fa uso.',
-
-		'The Event \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your pages prior to uninstalling or disabling.' => 
-		'L\'evento \'%s\' fornito dall\'estensione \'%s\' &#232; attualmente in uso. Prima di disabilitarla o disinstallarla , assicurati che l\'evento venga eliminato da ogni sezione che ne fa uso.',
-
-		'Validation Rule' => 
-		'Formato',
-
-		'%s Display field’s value in entries table' => 
-		'%s Mostra il valore del campo nella tabella delle voci',
-
-		'%s Display relationship in linked sections' => 
-		'%s Mostra la relazione nelle sezioni associate',
-
-		'The page you requested does not exist' => 
-		'La pagina richiesta non esiste',
-
-		'Forbidden' => 
-		'Accesso negato',
-
-		'The selected language could not be found. Using default English dictionary instead.' => 
-		'Il linguaggio selezionato non &#232; stato trovato. Verr&#224; utilizzato il dizionario Inglese.',
-
-		'Unsupported SSL type' => 
-		'Cifratura SSL non supportata',
-
-		'No connection has been established to %s' => 
-		'Non &#232; stata stabilita alcuna connessione con %s',
-
-		'Header fields can only contain strings' => 
-		'L\'header pu&#242; contenere solo stringhe',
-
-		'Can not call HELO on existing session' => 
-		'Non si pu&#242; chiamare HELO sulla sessione esistente',
-
-		'Must call EHLO (or HELO) before calling MAIL' => 
-		'&#200; necessario chiamare EHLO (o HELO) prima di MAIL',
-
-		'Only one call to MAIL may be made at a time.' => 
-		'Pu&#242; essere eseguita una sola chiamata MAIL alla volta',
-
-		'Must call MAIL before calling RCPT' => 
-		'&#200; necessario chiamare MAIL prima di RCPT',
-
-		'Must call RCPT before calling DATA' => 
-		'&#200; necessario chiamare RCPT prima di DATA',
-
-		'Must call EHLO (or HELO) before calling AUTH' => 
-		'&#200; necessario chiamare EHLO (o HELO) prima di AUTH',
-
-		'Can not call AUTH again.' => 
-		'Non si pu&#242; chiamare HELO un\'altra volta',
-
-		'Unable to connect via TLS' => 
-		'Non &#232; stato possibile connettersi via TLS',
-
-		'Could not send request: %s' => 
-		'Non &#232; stato possibile inviare la seguente richiesta: %s',
-
-		'%s has timed out' => 
-		'La connessione %s &#232; scaduta',
-
-		'Could not read from %s' => 
-		'Non &#232; stato possibile leggere da %s',
-
-		'Unable to open socket. Unknown error' => 
-		'Non &#232; stato possibile aprire il socket a causa di un errore sconosciuto',
-
-		'Unable to open socket. %s' => 
-		'Non &#232; stato possibile aprire il socket a causa del seguente errore: %s',
-
-		'Unable to set timeout.' => 
-		'Non &#232; stato possibile impostare il timeout.',
-
-		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Non &#232; stato possibile trovare il formattatore di testi <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
+		'Sender Name can not contain carriage return or newlines.' => 
+		'Il mittente non pu&#242; contenere caratteri di accapo o carriage return.',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
 		'Impossibile trovare la cartella <code>/symphony</code> in questa cartella. Carica qui i contenuti del pacchetto di installazione di Symphony.',
 
-		'no leading zeros' => 
-		'nessun zero iniziale',
+		'Symphony requires <code>MySQL 5.0</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
+		'Symphony richiede <code>MySQL 5.0</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; linstallazione possa proseguire.',
 
 		'Host' => 
 		false,
 
-		'Port' => 
-		'Porta',
+		'Always use <code>UTF-8</code> encoding' => 
+		'Usa sempre la codifica <code>UTF-8</code>',
 
-		'Make sure that you delete <code>%s</code> file after Symphony has installed successfully.' => 
-		'Assicurati di cancellare <code>%s</code> dopo che l\'installazione sar&#224; terminata con successo.',
+		'If unchecked, Symphony will use your database\'s default encoding instead of <code>UTF-8</code>.' => 
+		'Se ignorato, Symphony user&#224; la codifica di default del tuo database.',
 
-		'Symphony is also available in other languages' => 
-		'Symphony &#232; disponibile anche in altre lingue',
+		'XML is invalid.' => 
+		'XML non valido',
 
 		'Sendmail (default)' => 
 		false,
@@ -1741,71 +1870,263 @@
 		'Email: Sendmail' => 
 		false,
 
-		'The following default settings will be used to send emails unless they are overwritten.' => 
-		'Verrano utilizzate le seguenti impostazioni:',
-
-		'From Name' => 
-		'Nome del mittente',
-
-		'From Email Address' => 
-		'Email del mittente',
-
 		'SMTP' => 
 		false,
 
 		'Email: SMTP' => 
 		false,
 
-		'No encryption' => 
-		'Nessuna cifratura',
-
-		'SSL encryption' => 
-		'Cifratura SSL',
-
-		'TLS encryption' => 
-		'Cifratura TLS',
-
-		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
-		'Per le connessioni sicure, &#232; garantito il supporto alle cifrature SSL e TLS. Per maggiori dettagli, controlla il manuale del tuo servizio di posta elettronica.',
-
-		'%s Requires authentication' => 
-		'%s Richiesta autenticazione',
-
-		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
-		'Alcune connessioni SMPT richiedono l\'autenticazione. In tal caso, inserisci username e password nei campi sottostanti',
-
-		'Long Description' => 
-		'Descrizione',
-
-		'%s Pre-populate this field with today\'s date' => 
+		'%s Pre-populate this field with today’s date' => 
 		'%s Inserisci in automatico la data corrente',
 
-		'Predefined Values' => 
-		'Valori predefiniti',
-
-		'Dynamic Values' => 
-		'Valori dinamici',
-
-		'Available when using Dynamic Options' => 
-		'Utile quando si impostano dei valori dinamici',
+		'%s Sort all options alphabetically' => 
+		'%s Ordina tutte le voci alfabeticamente',
 
 		'Textarea' => 
 		false,
 
-		'File Upload' => 
-		'Caricamento file',
-
-		'The destination directory, <code>%s</code>, does not exist.' => 
-		'La cartella di destinazione, <code>%s</code>, non esiste.',
-
-		'Directory <code>%s</code> does not exist.' => 
-		'La cartella <code>%s</code> non esiste.',
-
-		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
-		'Il file non &#232; pi&#249; disponibile. Assicurati che esista e controlla i permessi in lettura.',
-
 		'XML' => 
 		false,
+
+		'yesterday' => 
+		'ieri',
+
+		'today' => 
+		'oggi',
+
+		'tomorrow' => 
+		'domani',
+
+		'now' => 
+		'ora',
+
+		'Sunday' => 
+		'Domenica',
+
+		'Monday' => 
+		'Luned&#236;',
+
+		'Tuesday' => 
+		'Marted&#236;',
+
+		'Wednesday' => 
+		'Mercoled&#236;',
+
+		'Thursday' => 
+		'Gioved&#236;',
+
+		'Friday' => 
+		'Venerd&#236;',
+
+		'Saturday' => 
+		'Sabato',
+
+		'Sun' => 
+		'Dom',
+
+		'Mon' => 
+		'Lun',
+
+		'Tue' => 
+		'Mar',
+
+		'Wed' => 
+		'Mer',
+
+		'Thu' => 
+		'Gio',
+
+		'Fri' => 
+		'Ven',
+
+		'Sat' => 
+		'Sab',
+
+		'January' => 
+		'Gennaio',
+
+		'February' => 
+		'Febbraio',
+
+		'March' => 
+		'Marzo',
+
+		'April' => 
+		'Aprile',
+
+		'May' => 
+		'Maggio',
+
+		'June' => 
+		'Giugno',
+
+		'July' => 
+		'Luglio',
+
+		'August' => 
+		'Agosto',
+
+		'September' => 
+		'Settembre',
+
+		'October' => 
+		'Ottobre',
+
+		'November' => 
+		'Novembre',
+
+		'December' => 
+		'Dicembre',
+
+		'Jan' => 
+		'Gen',
+
+		'Feb' => 
+		false,
+
+		'Mar' => 
+		false,
+
+		'Apr' => 
+		false,
+
+		'Jun' => 
+		'Giu',
+
+		'Jul' => 
+		'Lug',
+
+		'Aug' => 
+		'Ago',
+
+		'Sep' => 
+		'Set',
+
+		'Oct' => 
+		'Ott',
+
+		'Nov' => 
+		false,
+
+		'Dec' => 
+		'Dic',
+
+		'sec' => 
+		false,
+
+		'second' => 
+		'secondo/a',
+
+		'min' => 
+		false,
+
+		'minute' => 
+		'minuto',
+
+		'hour' => 
+		'ora',
+
+		'day' => 
+		'giorno',
+
+		'fortnight' => 
+		'quindicina',
+
+		'forthnight' => 
+		'quindicina',
+
+		'month' => 
+		'mese',
+
+		'year' => 
+		'anno',
+
+		'secs' => 
+		'sec',
+
+		'seconds' => 
+		'secondi',
+
+		'mins' => 
+		'min',
+
+		'minutes' => 
+		'minuti',
+
+		'hours' => 
+		'ore',
+
+		'days' => 
+		'giorni',
+
+		'fortnights' => 
+		'quindicine',
+
+		'forthnights' => 
+		'quindicine',
+
+		'months' => 
+		'mesi',
+
+		'years' => 
+		'anni',
+
+		'weekday' => 
+		'giorno della settimana',
+
+		'weekdays' => 
+		'giorni della settimana',
+
+		'week' => 
+		'settimana',
+
+		'weeks' => 
+		'settimane',
+
+		'first' => 
+		'primo/a',
+
+		'third' => 
+		'terzo/a',
+
+		'fourth' => 
+		'quarto/a',
+
+		'fifth' => 
+		'quinto/a',
+
+		'sixth' => 
+		'sesto/a',
+
+		'seventh' => 
+		'settimo/a',
+
+		'eighth' => 
+		'ottavo/a',
+
+		'ninth' => 
+		'nono/a',
+
+		'tenth' => 
+		'decimo/a',
+
+		'eleventh' => 
+		'undicesimo/a',
+
+		'twelfth' => 
+		'dodicesimo/a',
+
+		'next' => 
+		'prossimo/a',
+
+		'last' => 
+		'ultimo/a',
+
+		'previous' => 
+		'scorso/a',
+
+		'this' => 
+		'questo/a',
 
 	);
 
