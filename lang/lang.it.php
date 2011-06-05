@@ -21,9 +21,6 @@
 		'"%1$s" contains invalid XML. The following error was returned: <code>%2$s</code>' => 
 		'"%1$s" contiene XML non valido. L\'errore segnalato &#232; il seguente: <code>%2$s</code>',
 
-		'%1$s Allow remote login via <a href="%2$s">%2$s</a>' => 
-		'%1$s Permetti l\'accesso remoto attraverso <a href="%2$s">%2$s</a>',
-
 		'%s Allow selection of multiple authors' => 
 		'%s Consenti la selezione di pi&#249; autori',
 
@@ -54,6 +51,9 @@
 		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
 		'%s Dividi i risultati in pagine di %s voci ciascuna, a partire dalla pagina %s',
 
+		'%s Pre-populate this field with today’s date' => 
+		'%s Inserisci in automatico la data corrente',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Reindirizza alla pagina 404 nel caso non venga restituito alcun risultato',
 
@@ -62,6 +62,9 @@
 
 		'%s Select current user by default' => 
 		'%s Seleziona in automatico l\'utente connesso',
+
+		'%s Sort all options alphabetically' => 
+		'%s Ordina tutte le voci alfabeticamente',
 
 		'%s has timed out' => 
 		'La connessione %s &#232; scaduta',
@@ -77,21 +80,6 @@
 
 		'\'%s\' is a required field.' => 
 		'\'%s\' &#232; un campo obbligatorio.',
-
-		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
-		'<a href="%1$s" title="Mostra il debug per %2$s">Linea %3$d</a>',
-
-		'<a href="%s" title="Show debug view">Compile</a>' => 
-		'<a href="%s" title="Mostra il debug per questa pagina">Debug</a>',
-
-		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 or above' => 
-		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 o superiore',
-
-		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
-		'Elaboratore <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
-
-		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
-		'Parametri <acronym title="Universal Resource Locator">URL</acronym>',
 
 		'A 403 type page already exists.' => 
 		'Una pagina di tipo \'403\' &#232; gi&#224; stata definita.',
@@ -156,8 +144,14 @@
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		'Per costruire il form associato a questo evento puoi ispirarti a questo esempio:',
 
+		'All selected' => 
+		'Tutti i selezionati',
+
 		'Allow Multiple' => 
 		'Consenti l\'invio di pi&#249; voci',
+
+		'Always use <code>UTF-8</code> encoding' => 
+		'Usa sempre la codifica <code>UTF-8</code>',
 
 		'An Event with the name <code>%s</code> name already exists' => 
 		'Un evento chiamato <code>%s</code> &#232; gi&#224; stato definito.',
@@ -168,17 +162,8 @@
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
 		'Non includere le parentesi graffe. Se il parametro non ha alcun valore, non verr&#224; restituito alcun risultato.',
 
-		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
-		'Si &#232; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
-
-		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		'Si &#232; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
-
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		'Sembra che esista gi&#224; una cartella <code>/workspace</code> in questa cartella. Symphony la user&#224; come spazio di lavoro (workspace).',
-
-		'An extension requires updating. <a href="%s">View Extensions</a>' => 
-		'Una o pi&#249; estensioni richiedono l\'aggiornamento. <a href="%s">Visualizza tutte le estensioni</a>',
 
 		'An index type page already exists.' => 
 		'Una pagina di tipo \'index\' &#232; gi&#224; stata definita.',
@@ -186,11 +171,53 @@
 		'An unknown database occurred while attempting to create the section.' => 
 		'Si &#232; verificato un errore nel database durante la creazione della sezione.',
 
-		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
-		'&#200; stato individuato uno script di aggiornamento nella directory principale. <a href="%s">Aggiorna Symphony</a>',
-
 		'Apply' => 
 		'Applica',
+
+		'April' => 
+		'Aprile',
+
+		'Are you sure you want to delete all entries in the selected sections?' => 
+		'Sei sicuro di voler rimuovere tutte le voci all\'interno delle sezioni selezionate?',
+
+		'Are you sure you want to delete the selected authors?' => 
+		'Sei sicuro di voler eliminare i profili autore selezionati?',
+
+		'Are you sure you want to delete the selected entries?' => 
+		'Sei sicuro di voler eliminare le voci selezionate?',
+
+		'Are you sure you want to delete the selected pages?' => 
+		'Sei sicuro di voler eliminare le pagine selezionate?',
+
+		'Are you sure you want to delete the selected sections?' => 
+		'Sei sicuro di voler rimuovere le sezioni selezionate?',
+
+		'Are you sure you want to delete this Utility?' => 
+		'Sei sicuro di voler eliminare questa utility?',
+
+		'Are you sure you want to delete this author?' => 
+		'Sei sicuro di voler eliminare questo profilo autore?',
+
+		'Are you sure you want to delete this data source?' => 
+		'Sei sicuro di voler eliminare questa sorgente dati?',
+
+		'Are you sure you want to delete this entry?' => 
+		'Sei sicuro di voler eliminare questa voce?',
+
+		'Are you sure you want to delete this event?' => 
+		'Sei sicuro di voler eliminare questo evento?',
+
+		'Are you sure you want to delete this page?' => 
+		'Sei sicuro di voler eliminare questa pagina?',
+
+		'Are you sure you want to delete this section?' => 
+		'Sei sicuro di voler eliminare questa sezione?',
+
+		'Are you sure you want to proceed?' => 
+		'Sei sicuro di voler procedere?',
+
+		'Are you sure you want to uninstall the selected extensions?' => 
+		'Sei sicuro di voler disinstallare le estensioni selezionate?',
 
 		'As requested, here is your new Symphony Author Password for ' => 
 		'Come richiesto, ecco la nuova password per',
@@ -198,20 +225,20 @@
 		'At least one source must be specified, dynamic or static.' => 
 		'&#232; necessario specificare almeno una fonte.',
 
+		'Aug' => 
+		'Ago',
+
+		'August' => 
+		'Agosto',
+
 		'Author' => 
 		'Autore',
 
 		'Author ID' => 
 		'ID dell\'autore',
 
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
-
 		'Author not found' => 
 		'Autore sconosciuto',
-
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
 		'Authors' => 
 		'Autori',
@@ -284,6 +311,9 @@
 
 		'Confirm Password' => 
 		'Conferma password',
+
+		'Content' => 
+		'Contenuto',
 
 		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Non &#232; stato possibile trovare la sorgente dati <code>%s</code>. Se &#232; stata fornita da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
@@ -372,14 +402,8 @@
 		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
 		'I dati prelevati dal server di Symphony vengono decompressi con la libreria di compressione ZLib.',
 
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sorgente dati creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
-
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Il campo <code>%s</code> non permette di raggruppare l\'output proveniente dalle sorgenti dati',
-
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Sorgente dati aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
 
 		'Database' => 
 		'Database',
@@ -402,8 +426,17 @@
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Ciao <!-- RECIPIENT NAME -->,',
 
+		'Dec' => 
+		'Dic',
+
+		'December' => 
+		'Dicembre',
+
 		'Default Area' => 
 		'Area di default',
+
+		'Default Email Settings' => 
+		'Impostazioni per l\'invio email',
 
 		'Delete' => 
 		'Elimina',
@@ -522,9 +555,6 @@
 		'Entry [created | edited] successfully.' => 
 		'Voce [creata | modificata] con successo.',
 
-		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
-
 		'Entry created successfully.' => 
 		'La voce &#232; stata creata con successo.',
 
@@ -537,9 +567,6 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Il limite di voci specificato non &#232; valido. Usare una stringa o un numero intero.',
 
-		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
-
 		'Environment Settings' => 
 		'Impostazioni di sistema',
 
@@ -548,12 +575,6 @@
 
 		'Essentials' => 
 		'Generalit&#224;',
-
-		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Evento creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
-
-		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Evento modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
 
 		'Events' => 
 		'Eventi',
@@ -584,6 +605,9 @@
 
 		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
 		'Questa opzione &#232; particolarmente consigliata quando il numero di voci restituito in output &#232; molto elevato.',
+
+		'February' => 
+		'Febbraio',
 
 		'Fields' => 
 		'Campi',
@@ -639,6 +663,12 @@
 		'Formatting' => 
 		'Formattazione',
 
+		'Fri' => 
+		'Ven',
+
+		'Friday' => 
+		'Venerd&#236;',
+
 		'From Email Address' => 
 		'Email del mittente',
 
@@ -666,6 +696,9 @@
 		'Hot' => 
 		'Caldi',
 
+		'If unchecked, Symphony will use your database\'s default encoding instead of <code>UTF-8</code>.' => 
+		'Se ignorato, Symphony user&#224; la codifica di default del tuo database.',
+
 		'Included Elements' => 
 		'Filtro',
 
@@ -689,6 +722,24 @@
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Ricorda che il link &#232; valido solo nelle prossime 2 ore. Se non ne hai richiesta una nuova, allora non considerare questa e-mail.',
+
+		'Jan' => 
+		'Gen',
+
+		'January' => 
+		'Gennaio',
+
+		'Jul' => 
+		'Lug',
+
+		'July' => 
+		'Luglio',
+
+		'Jun' => 
+		'Giu',
+
+		'June' => 
+		'Giugno',
 
 		'Label' => 
 		'Etichetta',
@@ -744,6 +795,12 @@
 		'Make textarea %s rows tall' => 
 		'Rendi il campo alto %s righe',
 
+		'March' => 
+		'Marzo',
+
+		'May' => 
+		'Maggio',
+
 		'Men' => 
 		'Uomini',
 
@@ -752,6 +809,12 @@
 
 		'Missing Requirements' => 
 		'Requisiti mancanti',
+
+		'Mon' => 
+		'Lun',
+
+		'Monday' => 
+		'Luned&#236;',
 
 		'Monkeys' => 
 		'Scimmie',
@@ -776,9 +839,6 @@
 
 		'Must call RCPT before calling DATA' => 
 		'&#200; necessario chiamare RCPT prima di DATA',
-
-		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
-		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 o superiore',
 
 		'MySQL Error (%1$s): %2$s in query "%3$s"' => 
 		'Errore MySQL (%1$s): %2$s nella query "%3$s"',
@@ -837,6 +897,15 @@
 		'Not Installed' => 
 		'Non installata',
 
+		'November' => 
+		'Novembre',
+
+		'Oct' => 
+		'Ott',
+
+		'October' => 
+		'Ottobre',
+
 		'Old Password' => 
 		'Vecchia password',
 
@@ -873,6 +942,9 @@
 		'Page Settings' => 
 		'Impostazioni',
 
+		'Page Template could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
+		'Non &#232; stato possibile creare il template della pagina su disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
+
 		'Page Type' => 
 		'Tipologia della pagina',
 
@@ -884,12 +956,6 @@
 
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Non &#232; stato possibile scrivere la pagina sul disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
-
-		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Pagina creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
-
-		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Pagina modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
 
 		'Pages' => 
 		'Pagine',
@@ -924,9 +990,6 @@
 		'Placement' => 
 		'Collocamento nell\'interfaccia',
 
-		'Please <a href="%s">login</a> to view this page.' => 
-		'<a href="%s">Effettua l\'accesso</a> per visualizzare questa pagina.',
-
 		'Please add the following personal details for this user.' => 
 		'Inserisci le informazioni personali per questo utente.',
 
@@ -947,6 +1010,9 @@
 
 		'Recipient email address cannot be empty.' => 
 		'L\'indirizzo email del destinatario non pu&#242; essere vuoto.',
+
+		'Recipient not found' => 
+		'Destinatario mancante',
 
 		'Region' => 
 		'Regione',
@@ -978,23 +1044,20 @@
 		'Round' => 
 		'Rotondi',
 
-		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
-		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
-
 		'SSL encryption' => 
 		'Cifratura SSL',
+
+		'Sat' => 
+		'Sab',
+
+		'Saturday' => 
+		'Sabato',
 
 		'Save Changes' => 
 		'Salva le modifiche',
 
-		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Sezione creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
-
 		'Section is invalid' => 
 		'La sezione specificata non &#232; valida',
-
-		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Sezione modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
 
 		'Sections' => 
 		'Sezioni',
@@ -1011,8 +1074,17 @@
 		'Sender Email Address can not contain carriage return or newlines.' => 
 		'Il campo Sender Email Address non pu&#242; contenere caratteri di accapo o carriage return.',
 
+		'Sender Name can not contain carriage return or newlines.' => 
+		'Il mittente non pu&#242; contenere caratteri di accapo o carriage return.',
+
 		'Sender email address cannot be empty.' => 
 		'L\'indirizzo email del mittente non pu&#242; essere vuoto.',
+
+		'Sep' => 
+		'Set',
+
+		'September' => 
+		'Settembre',
 
 		'Set %s' => 
 		'Imposta %s',
@@ -1062,6 +1134,12 @@
 		'Suggestion List' => 
 		'Attingi da',
 
+		'Sun' => 
+		'Dom',
+
+		'Sunday' => 
+		'Domenica',
+
 		'Symphony Concierge' => 
 		'Symphony CMS',
 
@@ -1089,15 +1167,6 @@
 		'Symphony is ready to be installed at the following location.' => 
 		'Symphony &#232; pronto per essere installato nella cartella specificata.',
 
-		'Symphony needs a recent version of <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.' => 
-		'Symphony richiede una versione recente di <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.',
-
-		'Symphony needs a recent version of My<abbr title="Structured Query Language">SQL</abbr>.' => 
-		'Symphony richiede una versione recente di My<abbr title="Structured Query Language">SQL</abbr>.',
-
-		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
-		'Symphony richiede un elaboratore XSLT come Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> o Sablotron per generare le pagine.',
-
 		'Symphony needs permission to read and write both files and directories.' => 
 		'Symphony ha bisogno dei permessi in lettura e scrittura su file e cartelle.',
 
@@ -1106,6 +1175,9 @@
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
 		'Symphony richiede <code>MySQL 4.1</code> o superiore per funzionare. Questo requisito deve essere soddisfatto affinch&#233; l\'installazione possa proseguire.',
+
+		'Symphony requires <code>MySQL 5.0</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
+		'Symphony richiede <code>MySQL 5.0</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; linstallazione possa proseguire.',
 
 		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
 		'Non &#232; stato possibile connettersi al database specificato. Prova a modificare le impostazioni relative all\'host o alla porta.',
@@ -1194,6 +1266,9 @@
 		'The page you requested does not exist.' => 
 		'La pagina richiesta non esiste.',
 
+		'The page you requested, %s, does not exist.' => 
+		'La pagina richiesta, %s, non esiste.',
+
 		'The password and confirmation did not match. Please retype your password.' => 
 		'Le due password inserite non corrispondono. Assicurati che la password digitata sia la stessa in entrambi i campi.',
 
@@ -1202,9 +1277,6 @@
 
 		'The selected language could not be found. Using default English dictionary instead.' => 
 		'Il linguaggio selezionato non &#232; stato trovato. Verr&#224; utilizzato il dizionario Inglese.',
-
-		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
-		'La password inserita non &#232; valida. <a href="%s">Hai perso la password?</a>',
 
 		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
 		'La password fornita non &#232; valida. Controlla di non aver lasciato il campo vuoto o di averla reinserita correttamente.',
@@ -1254,6 +1326,12 @@
 		'This page could not be rendered due to the following XSLT processing errors.' => 
 		'Non &#232; stato possibile mostrare la pagina a causa dei seguenti errori di elaborazione.',
 
+		'Thu' => 
+		'Gio',
+
+		'Thursday' => 
+		'Gioved&#236;',
+
 		'Time Format' => 
 		'Formato dell\'ora',
 
@@ -1268,6 +1346,12 @@
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
 		'Per reindirizzare su una pagina differente dopo l\'invio:',
+
+		'Tue' => 
+		'Mar',
+
+		'Tuesday' => 
+		'Marted&#236;',
 
 		'Two custom fields have the same element name. All element names must be unique.' => 
 		'I nomi dei campi personalizzati devono essere univoci.',
@@ -1307,9 +1391,6 @@
 
 		'Unknown Section' => 
 		'Sezione sconosciuta',
-
-		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&#224;</a>',
 
 		'Unknown errors where encountered when saving.' => 
 		'Si sono verificati degli errori durante il salvataggio delle modifiche.',
@@ -1374,12 +1455,6 @@
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Non &#232; stato possibile creare la utility. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
 
-		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
-
-		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
-
 		'Validation Rule' => 
 		'Formato',
 
@@ -1403,6 +1478,12 @@
 
 		'Website Preferences' => 
 		'Preferenze del sito',
+
+		'Wed' => 
+		'Mer',
+
+		'Wednesday' => 
+		'Mercoled&#236;',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
 		'Se l\'evento d&#224; esito negativo, per esempio a causa di campi mancanti o non validi, verr&#224; restituito il seguente messaggio:',
@@ -1429,6 +1510,9 @@
 		'Albero XML',
 
 		'XML is invalid' => 
+		'XML non valido',
+
+		'XML is invalid.' => 
 		'XML non valido',
 
 		'XML returned is invalid.' => 
@@ -1464,9 +1548,6 @@
 		'You must enter your name.' => 
 		'Devi inserire il tuo nome.',
 
-		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
-		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
-
 		'ZLib Compression Library' => 
 		'Libreria di compressione ZLib',
 
@@ -1491,17 +1572,86 @@
 		'at' => 
 		'il',
 
+		'day' => 
+		'giorno',
+
+		'days' => 
+		'giorni',
+
 		'descending' => 
 		'decrescente',
+
+		'eighth' => 
+		'ottavo/a',
+
+		'eleventh' => 
+		'undicesimo/a',
+
+		'fifth' => 
+		'quinto/a',
+
+		'first' => 
+		'primo/a',
+
+		'forthnight' => 
+		'quindicina',
+
+		'forthnights' => 
+		'quindicine',
+
+		'fortnight' => 
+		'quindicina',
+
+		'fortnights' => 
+		'quindicine',
+
+		'fourth' => 
+		'quarto/a',
+
+		'hour' => 
+		'ora',
+
+		'hours' => 
+		'ore',
 
 		'just now' => 
 		'ora',
 
+		'last' => 
+		'ultimo/a',
+
 		'list of comma-separated author usernames.' => 
 		'i nomi di ciascun utente separati da virgola',
 
+		'mins' => 
+		'min',
+
+		'minute' => 
+		'minuto',
+
+		'minutes' => 
+		'minuti',
+
+		'month' => 
+		'mese',
+
+		'months' => 
+		'mesi',
+
+		'next' => 
+		'prossimo/a',
+
+		'ninth' => 
+		'nono/a',
+
 		'no leading zeros' => 
 		'nessun zero iniziale',
+
+		'now' => 
+		'ora',
+
+		'previous' => 
+		'scorso/a',
 
 		'random' => 
 		'casuale',
@@ -1509,10 +1659,67 @@
 		'released on' => 
 		'rilasciata il',
 
+		'second' => 
+		'secondo/a',
+
+		'seconds' => 
+		'secondi',
+
+		'secs' => 
+		'sec',
+
+		'seventh' => 
+		'settimo/a',
+
+		'sixth' => 
+		'sesto/a',
+
+		'tenth' => 
+		'decimo/a',
+
+		'third' => 
+		'terzo/a',
+
+		'this' => 
+		'questo/a',
+
+		'today' => 
+		'oggi',
+
+		'tomorrow' => 
+		'domani',
+
+		'twelfth' => 
+		'dodicesimo/a',
+
+		'week' => 
+		'settimana',
+
+		'weekday' => 
+		'giorno della settimana',
+
+		'weekdays' => 
+		'giorni della settimana',
+
+		'weeks' => 
+		'settimane',
+
+		'year' => 
+		'anno',
+
+		'years' => 
+		'anni',
+
+		'yesterday' => 
+		'ieri',
+
 		'{$minutes} minutes ago' => 
 		'{$minutes} minuti fa',
 
 		// Obsolete
+
+		'%1$s Allow remote login via <a href="%2$s">%2$s</a>' => 
+		'%1$s Permetti l\'accesso remoto attraverso <a href="%2$s">%2$s</a>',
 
 		'%s Hide this section from the Publish menu' => 
 		'%s Nascondi questa sezione dal men&#249; di navigazione',
@@ -1526,6 +1733,33 @@
 		'%s is not a valid object. Failed to append to XML.' => 
 		'Non &#232; stato possibile aggiungere %s all\'albero XML poich&#233; non &#232; un oggetto valido.',
 
+		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
+		'<a href="%1$s" title="Mostra il debug per %2$s">Linea %3$d</a>',
+
+		'<a href="%s" title="Show debug view">Compile</a>' => 
+		'<a href="%s" title="Mostra il debug per questa pagina">Debug</a>',
+
+		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 or above' => 
+		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 o superiore',
+
+		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
+		'Elaboratore <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
+
+		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
+		'Parametri <acronym title="Universal Resource Locator">URL</acronym>',
+
+		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
+		'Si &#232; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
+
+		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
+		'Si &#232; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
+
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'Una o pi&#249; estensioni richiedono l\'aggiornamento. <a href="%s">Visualizza tutte le estensioni</a>',
+
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'&#200; stato individuato uno script di aggiornamento nella directory principale. <a href="%s">Aggiorna Symphony</a>',
+
 		'Are you sure you want to {$action} {$count} items?' => 
 		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
 
@@ -1535,8 +1769,14 @@
 		'Are you sure you want to {$action}?' => 
 		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
 
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+
 		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
 		'Profilo autore aggiunto alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
+
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
 		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
 		'Profilo autore modificato alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
@@ -1562,8 +1802,14 @@
 		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
 		'Non &#232; stato possibile trovare il formattatore di testi <code>%s</code>. Se &#232; stato fornito da un\'estensione, assicurati che quest\'ultima sia stata installata e abilitata.',
 
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
+
 		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sorgente dati creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
 		'Sorgente dati aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sorgenti dati</a>',
@@ -1583,14 +1829,26 @@
 		'Enable' => 
 		'Attiva',
 
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+
 		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Voce creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
+
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
 
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Voce modificata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
+
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
+
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
 
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento modificato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
@@ -1616,6 +1874,9 @@
 		'Make sure that you delete %s file after Symphony has installed successfully.' => 
 		'Assicurati di cancellare <code>%s</code> dopo che l\'installazione sar&#224; terminata con successo.',
 
+		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
+		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 o superiore',
+
 		'Namespace Declarations <i>Optional</i>' => 
 		'Namespace aggiuntivi <i>Facoltativo</i>',
 
@@ -1631,11 +1892,17 @@
 		'No valid recipients found. Check send-email[recipient] field.' => 
 		'Non &#232; stato trovato nessun destinatario valido. Controlla il campo <code>send-email[recipient]</code>',
 
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
+
 		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Pagina creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le pagine</a>',
 
 		'Page not found' => 
 		'La pagina non &#232; stata trovata',
+
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
 
 		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
 		'Pagina modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le pagine</a>',
@@ -1643,14 +1910,26 @@
 		'Page updated at %s. <a href="%s">View all Pages</a>' => 
 		'Pagina modificata %s. <a href="%s">Visualizza tutte le pagine.</a>',
 
+		'Please <a href="%s">login</a> to view this page.' => 
+		'<a href="%s">Effettua l\'accesso</a> per visualizzare questa pagina.',
+
 		'Recipient username was invalid' => 
 		'Il nome utente del destinatario non &#232; corretto',
 
 		'Required URL Parameter <i>Optional</i>' => 
 		'Parametro URL associato <i>Facoltativo</i>',
 
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
+
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
+
 		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Sezione creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
+
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
 
 		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
 		'Sezione modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le sezioni</a>',
@@ -1666,6 +1945,15 @@
 
 		'Static Options' => 
 		'Possibili valori (separati da virgola)',
+
+		'Symphony needs a recent version of <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.' => 
+		'Symphony richiede una versione recente di <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.',
+
+		'Symphony needs a recent version of My<abbr title="Structured Query Language">SQL</abbr>.' => 
+		'Symphony richiede una versione recente di My<abbr title="Structured Query Language">SQL</abbr>.',
+
+		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
+		'Symphony richiede un elaboratore XSLT come Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> o Sablotron per generare le pagine.',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
 		'Symphony normalmente usa la codifica UTF-8 per le voci del database. Con la modalit&#224; compatibile abilitata, Symphony utilizzer&#224; invece la codifica predefinita del tuo database.',
@@ -1697,6 +1985,9 @@
 		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
 		'L\'azione relativa all\'invio di e-mail prende in input i dati inseriti nel form inviandoli al destinatario designato. <b>Questa azione non &#232; compatibile con l\'opzione "Consenti l\'invio di pi&#249; voci".</b> Di seguito i campi riconosciuti:',
 
+		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
+		'La password inserita non &#232; valida. <a href="%s">Hai perso la password?</a>',
+
 		'There appears to be an existing <code>.htaccess</code> file in the <code>/symphony</code> directory.' => 
 		'Sembra che esista gi&#224; un file <code>.htaccess</code> nella cartella <code>/symphony</code>.',
 
@@ -1706,11 +1997,20 @@
 		'This event will not be processed if any of these rules return true.' => 
 		'L\'esito di questo evento &#232; strettamente legato a quello delle azioni selezionate.',
 
+		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
+		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&#224;</a>',
+
 		'Use compatibility mode' => 
 		'Abilita la modalit&#224; compatibile',
 
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Utility creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
+
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
 
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
 		'Utility aggiornata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
@@ -1720,6 +2020,9 @@
 
 		'You are not authorised to access this section.' => 
 		'Non sei autorizzato ad accedere alla sezione richiesta.',
+
+		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
+		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
 
 		'authors' => 
 		'autori',
@@ -1744,20 +2047,23 @@
 
 		// Missing
 
-		'Are you sure you want to proceed?' => 
-		'Sei sicuro di voler procedere?',
-
 		'Password' => 
 		false,
-
-		'All selected' => 
-		'Tutti i selezionati',
 
 		'%1$s &ndash; %2$s' => 
 		false,
 
 		'Symphony' => 
 		false,
+
+		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
+		'Si &#232; verificato un errore durante il salvataggio delle modifiche. <a href="#error">Visualizza i dettagli.</a>',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
+
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Sorgente dati creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sorgenti dati</a>',
 
 		'ID' => 
 		false,
@@ -1771,17 +2077,14 @@
 		'Namespace' => 
 		false,
 
-		'Are you sure you want to delete this data source?' => 
-		'Sei sicuro di voler eliminare questa sorgente dati?',
-
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		false,
 
-		'Are you sure you want to delete this event?' => 
-		'Sei sicuro di voler eliminare questo evento?',
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
 
-		'Recipient not found' => 
-		'Destinatario mancante',
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Evento creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza tutti gli eventi</a>',
 
 		'Template' => 
 		false,
@@ -1789,80 +2092,98 @@
 		'<acronym title="Universal Resource Locator">URL</acronym>' => 
 		false,
 
-		'Are you sure you want to delete the selected pages?' => 
-		'Sei sicuro di voler eliminare le pagine selezionate?',
+		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
+		'Parametri <acronym title="Universal Resource Locator">URL</acronym>',
 
-		'Are you sure you want to delete this page?' => 
-		'Sei sicuro di voler eliminare questa pagina?',
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
 
-		'Page Template could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
-		'Non &#232; stato possibile creare il template della pagina su disco. Controlla i permessi nella cartella <code>/workspace/pages</code>.',
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Pagina creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le pagine</a>',
 
-		'Are you sure you want to delete the selected sections?' => 
-		'Sei sicuro di voler rimuovere le sezioni selezionate?',
+		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
+		'Si sono verificati degli errori durante il salvataggio. Controlla il <a href="%s">registro delle attivit&#224;</a>',
 
-		'Are you sure you want to delete all entries in the selected sections?' => 
-		'Sei sicuro di voler rimuovere tutte le voci all\'interno delle sezioni selezionate?',
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione modificata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
 
-		'Content' => 
-		'Contenuto',
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Sezione creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le sezioni</a>',
 
-		'Are you sure you want to delete this section?' => 
-		'Sei sicuro di voler eliminare questa sezione?',
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
 
-		'Are you sure you want to delete this Utility?' => 
-		'Sei sicuro di voler eliminare questa utility?',
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
 
-		'Are you sure you want to delete the selected entries?' => 
-		'Sei sicuro di voler eliminare le voci selezionate?',
+		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
+		'La password inserita non &#232; valida. <a href="%s">Hai perso la password?</a>',
 
 		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
 		'Prima di creare una nuova voce in questa sezione, sei sicuro di non voler prima <a href="%s">creare un campo</a>?',
 
-		'Are you sure you want to delete this entry?' => 
-		'Sei sicuro di voler eliminare questa voce?',
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
 
-		'Are you sure you want to delete the selected authors?' => 
-		'Sei sicuro di voler eliminare i profili autore selezionati?',
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
 
-		'Are you sure you want to delete this author?' => 
-		'Sei sicuro di voler eliminare questo profilo autore?',
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
-		'Are you sure you want to uninstall the selected extensions?' => 
-		'Sei sicuro di voler disinstallare le estensioni selezionate?',
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
-		'Default Email Settings' => 
-		'Impostazioni per l\'invio email',
+		'%1$s Allow remote login via <a href="%2$s">%2$s</a>' => 
+		'%1$s Permetti l\'accesso remoto attraverso <a href="%2$s">%2$s</a>',
 
 		'Gateway' => 
 		false,
 
-		'The page you requested, %s, does not exist.' => 
-		'La pagina richiesta, %s, non esiste.',
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
+
+		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
+		'La versione di Symphony che stai utilizzando &#232; la pi&#249; recente, ma lo script di aggiornamento non &#232; stato ancora rimosso. Per ragioni di sicurezza, dovresti eliminarlo. <a href="%s/update.php?action=remove">Elimina lo script di aggiornamento</a>',
+
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'&#200; stato individuato uno script di aggiornamento nella directory principale. <a href="%s">Aggiorna Symphony</a>',
+
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'Una o pi&#249; estensioni richiedono l\'aggiornamento. <a href="%s">Visualizza tutte le estensioni</a>',
 
 		'Utility' => 
 		false,
 
-		'Sender Name can not contain carriage return or newlines.' => 
-		'Il mittente non pu&#242; contenere caratteri di accapo o carriage return.',
+		'Please <a href="%s">login</a> to view this page.' => 
+		'<a href="%s">Effettua l\'accesso</a> per visualizzare questa pagina.',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
 		'Impossibile trovare la cartella <code>/symphony</code> in questa cartella. Carica qui i contenuti del pacchetto di installazione di Symphony.',
 
-		'Symphony requires <code>MySQL 5.0</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony richiede <code>MySQL 5.0</code> o superiore per funzionare, mentre &#232; stata trovata la versione <code>%s</code>. Questo requisito deve essere soddisfatto affinch&#233; linstallazione possa proseguire.',
-
 		'Host' => 
 		false,
 
-		'Always use <code>UTF-8</code> encoding' => 
-		'Usa sempre la codifica <code>UTF-8</code>',
+		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 or above' => 
+		'<abbr title="PHP: Hypertext Pre-processor">PHP</abbr> 5.1 o superiore',
 
-		'If unchecked, Symphony will use your database\'s default encoding instead of <code>UTF-8</code>.' => 
-		'Se ignorato, Symphony user&#224; la codifica di default del tuo database.',
+		'Symphony needs a recent version of <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.' => 
+		'Symphony richiede una versione recente di <abbr title="PHP: Hypertext Pre-processor">PHP</abbr>.',
 
-		'XML is invalid.' => 
-		'XML non valido',
+		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
+		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 o superiore',
+
+		'Symphony needs a recent version of My<abbr title="Structured Query Language">SQL</abbr>.' => 
+		'Symphony richiede una versione recente di My<abbr title="Structured Query Language">SQL</abbr>.',
+
+		'<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> Processor' => 
+		'Elaboratore <abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr>',
+
+		'Symphony needs an XSLT processor such as Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> or Sablotron to build pages.' => 
+		'Symphony richiede un elaboratore XSLT come Lib<abbr title="eXtensible Stylesheet Language Transformation">XSLT</abbr> o Sablotron per generare le pagine.',
+
+		'An error occurred during installation. You can view you log <a href="install-log.txt">here</a> for more details.' => 
+		'Si &#232; verificato un errore durante l\'installazione. Per maggiori dettagli consulta <a href="install-log.txt">rapporto</a>.',
 
 		'Sendmail (default)' => 
 		false,
@@ -1876,110 +2197,17 @@
 		'Email: SMTP' => 
 		false,
 
-		'%s Pre-populate this field with today’s date' => 
-		'%s Inserisci in automatico la data corrente',
-
-		'%s Sort all options alphabetically' => 
-		'%s Ordina tutte le voci alfabeticamente',
-
 		'Textarea' => 
 		false,
 
+		'<a href="%s" title="Show debug view">Compile</a>' => 
+		'<a href="%s" title="Mostra il debug per questa pagina">Debug</a>',
+
+		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
+		'<a href="%1$s" title="Mostra il debug per %2$s">Linea %3$d</a>',
+
 		'XML' => 
 		false,
-
-		'yesterday' => 
-		'ieri',
-
-		'today' => 
-		'oggi',
-
-		'tomorrow' => 
-		'domani',
-
-		'now' => 
-		'ora',
-
-		'Sunday' => 
-		'Domenica',
-
-		'Monday' => 
-		'Luned&#236;',
-
-		'Tuesday' => 
-		'Marted&#236;',
-
-		'Wednesday' => 
-		'Mercoled&#236;',
-
-		'Thursday' => 
-		'Gioved&#236;',
-
-		'Friday' => 
-		'Venerd&#236;',
-
-		'Saturday' => 
-		'Sabato',
-
-		'Sun' => 
-		'Dom',
-
-		'Mon' => 
-		'Lun',
-
-		'Tue' => 
-		'Mar',
-
-		'Wed' => 
-		'Mer',
-
-		'Thu' => 
-		'Gio',
-
-		'Fri' => 
-		'Ven',
-
-		'Sat' => 
-		'Sab',
-
-		'January' => 
-		'Gennaio',
-
-		'February' => 
-		'Febbraio',
-
-		'March' => 
-		'Marzo',
-
-		'April' => 
-		'Aprile',
-
-		'May' => 
-		'Maggio',
-
-		'June' => 
-		'Giugno',
-
-		'July' => 
-		'Luglio',
-
-		'August' => 
-		'Agosto',
-
-		'September' => 
-		'Settembre',
-
-		'October' => 
-		'Ottobre',
-
-		'November' => 
-		'Novembre',
-
-		'December' => 
-		'Dicembre',
-
-		'Jan' => 
-		'Gen',
 
 		'Feb' => 
 		false,
@@ -1990,143 +2218,14 @@
 		'Apr' => 
 		false,
 
-		'Jun' => 
-		'Giu',
-
-		'Jul' => 
-		'Lug',
-
-		'Aug' => 
-		'Ago',
-
-		'Sep' => 
-		'Set',
-
-		'Oct' => 
-		'Ott',
-
 		'Nov' => 
 		false,
-
-		'Dec' => 
-		'Dic',
 
 		'sec' => 
 		false,
 
-		'second' => 
-		'secondo/a',
-
 		'min' => 
 		false,
-
-		'minute' => 
-		'minuto',
-
-		'hour' => 
-		'ora',
-
-		'day' => 
-		'giorno',
-
-		'fortnight' => 
-		'quindicina',
-
-		'forthnight' => 
-		'quindicina',
-
-		'month' => 
-		'mese',
-
-		'year' => 
-		'anno',
-
-		'secs' => 
-		'sec',
-
-		'seconds' => 
-		'secondi',
-
-		'mins' => 
-		'min',
-
-		'minutes' => 
-		'minuti',
-
-		'hours' => 
-		'ore',
-
-		'days' => 
-		'giorni',
-
-		'fortnights' => 
-		'quindicine',
-
-		'forthnights' => 
-		'quindicine',
-
-		'months' => 
-		'mesi',
-
-		'years' => 
-		'anni',
-
-		'weekday' => 
-		'giorno della settimana',
-
-		'weekdays' => 
-		'giorni della settimana',
-
-		'week' => 
-		'settimana',
-
-		'weeks' => 
-		'settimane',
-
-		'first' => 
-		'primo/a',
-
-		'third' => 
-		'terzo/a',
-
-		'fourth' => 
-		'quarto/a',
-
-		'fifth' => 
-		'quinto/a',
-
-		'sixth' => 
-		'sesto/a',
-
-		'seventh' => 
-		'settimo/a',
-
-		'eighth' => 
-		'ottavo/a',
-
-		'ninth' => 
-		'nono/a',
-
-		'tenth' => 
-		'decimo/a',
-
-		'eleventh' => 
-		'undicesimo/a',
-
-		'twelfth' => 
-		'dodicesimo/a',
-
-		'next' => 
-		'prossimo/a',
-
-		'last' => 
-		'ultimo/a',
-
-		'previous' => 
-		'scorso/a',
-
-		'this' => 
-		'questo/a',
 
 	);
 
