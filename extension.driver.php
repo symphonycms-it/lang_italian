@@ -9,7 +9,7 @@
 		public function about() {
 			return array(
 				'name' => 'Language: Italiano',
-				'version' => '1.1.5',
+				'version' => '1.1.6',
 				'author' => array(
 					'name' => 'Simone Economo',
 					'website' => 'http://lineheight.net',

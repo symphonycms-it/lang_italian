@@ -2,8 +2,8 @@
 
 Official Italian translation for [Symphony](http://www.symphony-cms.com).  
 
-- Version: 1.1.5
-- Date: 31st August 2010
+- Version: 1.1.6
+- Date: 5th June 2011
 - Requirements: Symphony 2.0.7 or greater
 - Author: Simone Economo (my.ekoes on Gmail)
 - Contributors: Simone Economo (my.ekoes on Gmail), Davide Crivelli (da.crivelli on Gmail), Antonio Piu (antonio.piu on Gmail), Mario Butera (buteram on Gmail)

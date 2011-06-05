@@ -1129,7 +1129,7 @@
 		'Se l\'evento d&#224; esito positivo, verr&#224; restituito il seguente messaggio:',
 
 		'With Selected...' => 
-		'ai selezionati...',
+		'Oggetti selezionati...',
 
 		'Women' => 
 		'Donne',
@@ -1562,7 +1562,7 @@
 		false,
 
 		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
-		'Symphony user&#224; il gateway selezionato per inviare le email. Possono essere installati altri gateway tramite estensioni, e ciascuno di questi gateway pu&#242; essere usato in eventi ed estensioni.',
+		'Symphony user&#224; il gateway selezionato per inviare le email. I gateway possono essere usati sia negli eventi che nelle estensioni.',
 
 		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
 		'Esegui l\'aggiornamento per aggiornare Symphony alla versione %s. <a href="%s">Aggiorna Symphony</a>',
@@ -1742,7 +1742,7 @@
 		false,
 
 		'The following default settings will be used to send emails unless they are overwritten.' => 
-		'A meno che non vengano sovrascritte, verrano utilizzate le seguenti impostazioni.',
+		'Verrano utilizzate le seguenti impostazioni:',
 
 		'From Name' => 
 		'Nome del mittente',
@@ -1766,10 +1766,10 @@
 		'Cifratura TLS',
 
 		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
-		'Per le connessioni sicure, &#232; garantito il supporto alle cifrature SSL e TLS. Controlla il manuale del tuo email provider per maggiori dettagli.',
+		'Per le connessioni sicure, &#232; garantito il supporto alle cifrature SSL e TLS. Per maggiori dettagli, controlla il manuale del tuo servizio di posta elettronica.',
 
 		'%s Requires authentication' => 
-		'%s Richiede autenticazione',
+		'%s Richiesta autenticazione',
 
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
 		'Alcune connessioni SMPT richiedono l\'autenticazione. In tal caso, inserisci username e password nei campi sottostanti',
