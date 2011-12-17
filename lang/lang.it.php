@@ -268,13 +268,13 @@
 		'ID dell\'autore',
 
 		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore creato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+		'Profilo autore creato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
 		'Author not found' => 
 		'Autore sconosciuto',
 
 		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Profilo autore modificato alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
+		'Profilo autore modificato %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un altro?</a> <a href="%3$s" accesskey="a">Visualizza i profili di tutti gli autori</a>',
 
 		'Authors' => 
 		'Autori',
@@ -598,7 +598,7 @@
 		'Voce [creata | modificata] con successo.',
 
 		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+		'Voce creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
 
 		'Entry created successfully.' => 
 		'La voce &#232; stata creata con successo.',
@@ -613,7 +613,7 @@
 		'Il limite di voci specificato non &#232; valido. Usare una stringa o un numero intero.',
 
 		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Voce aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
+		'Voce aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le voci</a>',
 
 		'Environment Settings' => 
 		'Impostazioni di sistema',
@@ -1546,10 +1546,10 @@
 		'Non &#232; stato possibile creare la utility. Verificare i permessi di lettura/scrittura nella cartella <code>/workspace/utilities</code>.',
 
 		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility creata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+		'Utility creata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
 
 		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Utility aggiornata alle %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
+		'Utility aggiornata %1$s. <a href="%2$s" accesskey="c">Vuoi crearne un\'altra?</a> <a href="%3$s" accesskey="a">Visualizza tutte le utility</a>',
 
 		'Validation Rule' => 
 		'Formato',
@@ -1839,10 +1839,10 @@
 		'Sei sicuro di voler continuare? L\'operazione non potr&#224; essere annullata.',
 
 		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Profilo autore aggiunto alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
+		'Profilo autore aggiunto %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
 
 		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Profilo autore modificato alle %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
+		'Profilo autore modificato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza i profili di tutti gli autori</a>',
 
 		'Can\'t open file %s' => 
 		'Impossibile aprire il file %s',
@@ -1890,10 +1890,10 @@
 		'Attiva',
 
 		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Voce creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
+		'Voce creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Voce modificata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
+		'Voce modificata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le voci</a>',
 
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento creato %1$s. <a href="%2$s">Vuoi crearne un altro?</a> <a href="%3$s">Visualizza tutti gli eventi</a>',
@@ -2016,10 +2016,10 @@
 		'Abilita la modalit&#224; compatibile',
 
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utility creata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
+		'Utility creata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
 
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utility aggiornata alle %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
+		'Utility aggiornata %1$s. <a href="%2$s">Vuoi crearne un\'altra?</a> <a href="%3$s">Visualizza tutte le utility</a>',
 
 		'Validation Rule <i>Optional</i>' => 
 		'Formato <i>Facoltativo</i>',

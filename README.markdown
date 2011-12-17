@@ -1,13 +1,11 @@
-# Language: Italian
+Official Italian translation for the [Symphony](http://www.symphony-cms.com) backend.
 
-Official Italian translation for [Symphony](http://www.symphony-cms.com).  
+## Contributors
 
-- Version: 1.2
-- Date: 7th June 2011
-- Requirements: Symphony 2.0.7 or greater
-- Author: Simone Economo (my.ekoes on Gmail)
-- Contributors: Simone Economo (my.ekoes on Gmail), Davide Crivelli (da.crivelli on Gmail), Antonio Piu (antonio.piu on Gmail), Mario Butera (buteram on Gmail)
-- GitHub Repository: <http://github.com/ekoes/lang_italian>
+- Butera Mario (buteram [at] GMail)
+- Crivelli Davide (da.crivelli [at] GMail)
+- Economo Simone (my.ekoes [at] GMail)
+- Piu Antonio (antonio.piu [at] GMail)
 
 ## Installation & Updating
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="lang_italian" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Language: Italian</name>
+	<description>Italian translation for Symphony</description>
+	<repo type="github">https://github.com/eKoeS/lang_italian</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/37463/</url>
+	<types>
+		<type>Translations</type>
+	</types>
+	<authors>
+		<author>
+			<name github="eKoeS" symphony="eKoeS">Simone Economo</name>
+			<website>http://www.lineheight.net/</website>
+		</author>
+		<author>
+			<name github="puleddu" symphony="puleddu">Antonio Piu</name>
+			<website>http://antoniopiu.com/</website>
+		</author>
+	</authors>
+	<media>
+		<item type="image" url="http://symphonyextensions.com/eKoeS/lang_italian/media/lang_italian.png">Language: Italian: Italian translation for Symphony</item>
+	</media>
+	<releases>
+		<release version="1.2" date="2011-06-07" min="2.0.3" max="2.2.x"/>
+	</releases>
+</extension>
