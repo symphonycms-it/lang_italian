@@ -16,11 +16,18 @@
 			<name github="puleddu" symphony="puleddu">Antonio Piu</name>
 			<website>http://antoniopiu.com/</website>
 		</author>
+		<author>
+			<name github="bambocci" symphony="bambocci">Mario Butera</name>
+			<website>http://mblabs.net/</website>
+		</author>
 	</authors>
 	<media>
 		<item type="image" url="http://symphonyextensions.com/eKoeS/lang_italian/media/lang_italian.png">Language: Italian: Italian translation for Symphony</item>
 	</media>
 	<releases>
-		<release version="1.2" date="2011-06-07" min="2.0.3" max="2.2.x"/>
+		<release version="1.2.1" date="2011-06-07" min="2.0.3" max="2.2.x">
+			* Some corrections to the translation of system messages.
+			* Added `extension.meta.xml`.
+		</release>
 	</releases>
 </extension>
