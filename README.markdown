@@ -4,7 +4,6 @@ Official Italian translation for the [Symphony](http://www.symphony-cms.com) bac
 
 - Butera Mario (buteram [at] GMail)
 - Crivelli Davide (da.crivelli [at] GMail)
-- Economo Simone (my.ekoes [at] GMail)
 - Piu Antonio (antonio.piu [at] GMail)
 
 ## Installation & Updating
